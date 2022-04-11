@@ -1,0 +1,145 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "e50ba87f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from bokeh.io import curdoc\n",
+    "from bokeh.layouts import row, column\n",
+    "from bokeh.models import ColumnDataSource, GMapOptions\n",
+    "from bokeh.plotting import gmap\n",
+    "from bokeh.models.widgets import Slider, TextInput\n",
+    "import random\n",
+    "from bokeh.plotting import figure, save\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "e780027e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df1=pd.read_csv('rest1.csv')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "cbb35793",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df1['E'], df1['N'] = zip(\n",
+    "    *df1.apply(lambda x: LongLat_to_EN(df1['latitude'],df1['longitude']), axis=1))\n",
+    "y_coords = [49.285006, -123.118050]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "59d6504e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "\n",
+    "text = TextInput(title=\"title\", value='my sine wave')\n",
+    "\n",
+    "zoom_slider = Slider(title='Zoom Level', value=11, start=0, end=20, step=1)\n",
+    "lat_textbox = TextInput(title='Latitude', value='49.285006')\n",
+    "lon_textbox = TextInput(title='Longitude', value='-123.118050')\n",
+    "\n",
+    "source_gps = ColumnDataSource(data=dict(lat=df1['latitude'], lon=df1['latitude']))\n",
+    "initial_map_options = GMapOptions(lat=49.285006, lng=-123.118050, map_type=\"roadmap\", zoom=11)\n",
+    "\n",
+    "p = gmap(\"AIzaSyCPK5YIx7ZzUjfChnH8R7eAd2mnL27pPaI\", \n",
+    "map_options=initial_map_options, title=\"BC\",plot_width=800, plot_height=00)\n",
+    "p.circle(x=\"lon\", y=\"lat\", size=15, fill_color=\"blue\", fill_alpha=0.8, source=source_gps)\n",
+    "\n",
+    "\n",
+    "def update_data(attrname, old, new):\n",
+    "    zoom = zoom_slider.value\n",
+    "    lat = float(lat_textbox.value)\n",
+    "    lon = float(lon_textbox.value)\n",
+    "    source_gps.data = dict(lat=df1['latitude'],\n",
+    "                       lon=df1['latitude'])\n",
+    "    p.map_options = GMapOptions(lat=lat, lng=lon, map_type=\"roadmap\", zoom=zoom)\n",
+    "\n",
+    "\n",
+    "for w in [zoom_slider, lat_textbox, lon_textbox]:\n",
+    "    w.on_change('value', update_data)\n",
+    "\n",
+    "# Set up layouts and add to document\n",
+    "inputs = column(zoom_slider, lat_textbox, lon_textbox)\n",
+    "\n",
+    "curdoc().add_root(row(inputs, p, width=800))\n",
+    "curdoc().title = \"Google Map\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "e15d202b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "show(p)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "d68e9b27",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'/Users/bhawna/mapping_restaurants.html'"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "save(p)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a9f54aab",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
