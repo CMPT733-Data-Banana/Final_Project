@@ -7,7 +7,7 @@ Competitor Analysis
 This includes the steps to extract data from from yelp api 
 -Output
 This is extraction for 50 records 
-data_bc.csv
+
 
 
 /Data Cleaning
