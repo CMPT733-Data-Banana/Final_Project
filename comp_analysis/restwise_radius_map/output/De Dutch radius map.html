@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_11bbd349883a47a895e4f51e19db643c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_11bbd349883a47a895e4f51e19db643c" ></div>
+        
+</body>
+<script>    
+    
+            var map_11bbd349883a47a895e4f51e19db643c = L.map(
+                "map_11bbd349883a47a895e4f51e19db643c",
+                {
+                    center: [49.285006, -123.11805],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7e2cb4b49a68450c9d829ee51e3fdf0e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_11bbd349883a47a895e4f51e19db643c);
+        
+    
+            var feature_group_63ca419b2262422aa72dcc6a06cd1595 = L.featureGroup(
+                {}
+            ).addTo(map_11bbd349883a47a895e4f51e19db643c);
+        
+    
+            var marker_78cd12cebf9240489559a3873f651f76 = L.marker(
+                [49.2900302494, -123.1168956816],
+                {}
+            ).addTo(feature_group_63ca419b2262422aa72dcc6a06cd1595);
+        
+    
+            var icon_19a689b476ce45868098ed55ce212e95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_78cd12cebf9240489559a3873f651f76.setIcon(icon_19a689b476ce45868098ed55ce212e95);
+        
+    
+            marker_78cd12cebf9240489559a3873f651f76.bindTooltip(
+                `<div>
+                      Reviews:3.5	 Name:De Dutch Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ad9e414db2264d72996f764b172b83ef = L.circle(
+                [49.2900302494, -123.1168956816],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_63ca419b2262422aa72dcc6a06cd1595);
+        
+    
+            var marker_3e5f3ebfe69241958e4744881d72aea8 = L.marker(
+                [49.2858315, -123.1153183],
+                {}
+            ).addTo(feature_group_63ca419b2262422aa72dcc6a06cd1595);
+        
+    
+            var icon_a535ac2ab73f42a3be80425bbfa34f25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_3e5f3ebfe69241958e4744881d72aea8.setIcon(icon_a535ac2ab73f42a3be80425bbfa34f25);
+        
+    
+            marker_3e5f3ebfe69241958e4744881d72aea8.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Scoozis Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b36bbb19f58348e18bca4f56775eb3e9 = L.marker(
+                [49.2860544973, -123.1229372446],
+                {}
+            ).addTo(feature_group_63ca419b2262422aa72dcc6a06cd1595);
+        
+    
+            var icon_2ae0d1122cc240ccaab9bb0d4f150e65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_b36bbb19f58348e18bca4f56775eb3e9.setIcon(icon_2ae0d1122cc240ccaab9bb0d4f150e65);
+        
+    
+            marker_b36bbb19f58348e18bca4f56775eb3e9.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:49th Parallel Coffee Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1642c75add0406690e659e640e3e4b8 = L.marker(
+                [49.2916656936, -123.1283824472],
+                {}
+            ).addTo(feature_group_63ca419b2262422aa72dcc6a06cd1595);
+        
+    
+            var icon_5ed41e3bd6ad46f490c2105dfcbebc31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_d1642c75add0406690e659e640e3e4b8.setIcon(icon_5ed41e3bd6ad46f490c2105dfcbebc31);
+        
+    
+            marker_d1642c75add0406690e659e640e3e4b8.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:6 Degrees Eatery Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f524ed3b95214783b07168803ed1915e = L.marker(
+                [49.2827746, -123.1116823],
+                {}
+            ).addTo(feature_group_63ca419b2262422aa72dcc6a06cd1595);
+        
+    
+            var icon_fee996805adf468bb7c2b71552f6ce10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_f524ed3b95214783b07168803ed1915e.setIcon(icon_fee996805adf468bb7c2b71552f6ce10);
+        
+    
+            marker_f524ed3b95214783b07168803ed1915e.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Finch's Tea & Coffee House Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e0fff26b18444df9c85843a642cb424 = L.marker(
+                [49.282825, -123.11028],
+                {}
+            ).addTo(feature_group_63ca419b2262422aa72dcc6a06cd1595);
+        
+    
+            var icon_b6e5582a51854c5ca6b76fe09ee4b91b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_7e0fff26b18444df9c85843a642cb424.setIcon(icon_b6e5582a51854c5ca6b76fe09ee4b91b);
+        
+    
+            marker_7e0fff26b18444df9c85843a642cb424.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Nemesis Coffee Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e106eaa9e28f4820acbd840dd10d93bd = L.marker(
+                [49.287051, -123.1290774],
+                {}
+            ).addTo(feature_group_63ca419b2262422aa72dcc6a06cd1595);
+        
+    
+            var icon_d5783e0af9354b819a924bb660a21216 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_e106eaa9e28f4820acbd840dd10d93bd.setIcon(icon_d5783e0af9354b819a924bb660a21216);
+        
+    
+            marker_e106eaa9e28f4820acbd840dd10d93bd.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Forage Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_930a05c0b047490eb48968f1820c05fa = L.featureGroup(
+                {}
+            ).addTo(map_11bbd349883a47a895e4f51e19db643c);
+        
+    
+            var marker_98cfd361a7244ae6abee2fba76b57d6b = L.marker(
+                [49.2900302494, -123.1168956816],
+                {}
+            ).addTo(feature_group_930a05c0b047490eb48968f1820c05fa);
+        
+    
+            var icon_58f5f4f768d446388d96d0747ea43b58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_98cfd361a7244ae6abee2fba76b57d6b.setIcon(icon_58f5f4f768d446388d96d0747ea43b58);
+        
+    
+            marker_98cfd361a7244ae6abee2fba76b57d6b.bindTooltip(
+                `<div>
+                      Reviews:3.5	 Name:De Dutch Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0558facde5fb494b882a1f4295a808af = L.circle(
+                [49.2900302494, -123.1168956816],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_930a05c0b047490eb48968f1820c05fa);
+        
+    
+            var marker_952e5f5748434594ae6aab3343bdb172 = L.marker(
+                [49.2858315, -123.1153183],
+                {}
+            ).addTo(feature_group_930a05c0b047490eb48968f1820c05fa);
+        
+    
+            var icon_6fd1247ada1346e18bc2d12ce0bde15b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_952e5f5748434594ae6aab3343bdb172.setIcon(icon_6fd1247ada1346e18bc2d12ce0bde15b);
+        
+    
+            marker_952e5f5748434594ae6aab3343bdb172.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Scoozis Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b147b0d488442e7b7abe382fc5d2138 = L.marker(
+                [49.2860544973, -123.1229372446],
+                {}
+            ).addTo(feature_group_930a05c0b047490eb48968f1820c05fa);
+        
+    
+            var icon_b12bc2d7d524481ebac49d07c098ee32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_0b147b0d488442e7b7abe382fc5d2138.setIcon(icon_b12bc2d7d524481ebac49d07c098ee32);
+        
+    
+            marker_0b147b0d488442e7b7abe382fc5d2138.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:49th Parallel Coffee Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41e942b452b24577b377448dce4d764b = L.marker(
+                [49.2916656936, -123.1283824472],
+                {}
+            ).addTo(feature_group_930a05c0b047490eb48968f1820c05fa);
+        
+    
+            var icon_b1a40e1d839449bfa05de28fb4f73ebf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_41e942b452b24577b377448dce4d764b.setIcon(icon_b1a40e1d839449bfa05de28fb4f73ebf);
+        
+    
+            marker_41e942b452b24577b377448dce4d764b.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:6 Degrees Eatery Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8157df1ec8d4a28a8ec63f115f7d898 = L.marker(
+                [49.2827746, -123.1116823],
+                {}
+            ).addTo(feature_group_930a05c0b047490eb48968f1820c05fa);
+        
+    
+            var icon_9f9f85b052a24158baee82d3bc19d444 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_b8157df1ec8d4a28a8ec63f115f7d898.setIcon(icon_9f9f85b052a24158baee82d3bc19d444);
+        
+    
+            marker_b8157df1ec8d4a28a8ec63f115f7d898.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Finch's Tea & Coffee House Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71a99e6b520e494787a969a86c6f07a0 = L.marker(
+                [49.282825, -123.11028],
+                {}
+            ).addTo(feature_group_930a05c0b047490eb48968f1820c05fa);
+        
+    
+            var icon_79faa6f7e3e248758d72aa4d9618773e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_71a99e6b520e494787a969a86c6f07a0.setIcon(icon_79faa6f7e3e248758d72aa4d9618773e);
+        
+    
+            marker_71a99e6b520e494787a969a86c6f07a0.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Nemesis Coffee Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f5b07651fb040c6854c4d4bd5bca861 = L.marker(
+                [49.287051, -123.1290774],
+                {}
+            ).addTo(feature_group_930a05c0b047490eb48968f1820c05fa);
+        
+    
+            var icon_48a67d6bf1484e5faf932d244f26875b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_0f5b07651fb040c6854c4d4bd5bca861.setIcon(icon_48a67d6bf1484e5faf932d244f26875b);
+        
+    
+            marker_0f5b07651fb040c6854c4d4bd5bca861.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Forage Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_7c320a700dca4fa289946127eb2148f8 = L.featureGroup(
+                {}
+            ).addTo(map_11bbd349883a47a895e4f51e19db643c);
+        
+    
+            var marker_3b6bb678906b46dfafc82a2de692cebd = L.marker(
+                [49.2900302494, -123.1168956816],
+                {}
+            ).addTo(feature_group_7c320a700dca4fa289946127eb2148f8);
+        
+    
+            var icon_ac378c157a5a4f10a0abd84049739b96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_3b6bb678906b46dfafc82a2de692cebd.setIcon(icon_ac378c157a5a4f10a0abd84049739b96);
+        
+    
+            marker_3b6bb678906b46dfafc82a2de692cebd.bindTooltip(
+                `<div>
+                      Reviews:3.5	 Name:De Dutch Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9cd78e993382449b943826feeab9b46a = L.circle(
+                [49.2900302494, -123.1168956816],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c320a700dca4fa289946127eb2148f8);
+        
+    
+            var marker_9ae49db17373451c817112e9ea51d1cb = L.marker(
+                [49.2858315, -123.1153183],
+                {}
+            ).addTo(feature_group_7c320a700dca4fa289946127eb2148f8);
+        
+    
+            var icon_1dd7368533274b4e9ac2ef2a06cd914b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_9ae49db17373451c817112e9ea51d1cb.setIcon(icon_1dd7368533274b4e9ac2ef2a06cd914b);
+        
+    
+            marker_9ae49db17373451c817112e9ea51d1cb.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Scoozis Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce3259c74ccb42ffb704643cb6b6640d = L.marker(
+                [49.2860544973, -123.1229372446],
+                {}
+            ).addTo(feature_group_7c320a700dca4fa289946127eb2148f8);
+        
+    
+            var icon_593a96034aea48ff8e80a71dbb92979f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_ce3259c74ccb42ffb704643cb6b6640d.setIcon(icon_593a96034aea48ff8e80a71dbb92979f);
+        
+    
+            marker_ce3259c74ccb42ffb704643cb6b6640d.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:49th Parallel Coffee Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91d6ebe84746478ab85b43b358023562 = L.marker(
+                [49.2916656936, -123.1283824472],
+                {}
+            ).addTo(feature_group_7c320a700dca4fa289946127eb2148f8);
+        
+    
+            var icon_d653d9d12d0f4a47ad34449b6a0c6cd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_91d6ebe84746478ab85b43b358023562.setIcon(icon_d653d9d12d0f4a47ad34449b6a0c6cd2);
+        
+    
+            marker_91d6ebe84746478ab85b43b358023562.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:6 Degrees Eatery Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9099807ed7e4e48b465351a8722bfe4 = L.marker(
+                [49.2827746, -123.1116823],
+                {}
+            ).addTo(feature_group_7c320a700dca4fa289946127eb2148f8);
+        
+    
+            var icon_baa9eb74bfd447748a12e13a9dfeaadd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_a9099807ed7e4e48b465351a8722bfe4.setIcon(icon_baa9eb74bfd447748a12e13a9dfeaadd);
+        
+    
+            marker_a9099807ed7e4e48b465351a8722bfe4.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Finch's Tea & Coffee House Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96249d96b27b40468b138f7fa4b7cb00 = L.marker(
+                [49.282825, -123.11028],
+                {}
+            ).addTo(feature_group_7c320a700dca4fa289946127eb2148f8);
+        
+    
+            var icon_569f14c1d98544b1befa859e3691816c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_96249d96b27b40468b138f7fa4b7cb00.setIcon(icon_569f14c1d98544b1befa859e3691816c);
+        
+    
+            marker_96249d96b27b40468b138f7fa4b7cb00.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Nemesis Coffee Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be2652ef72b64e60880f08aa31a6f7ca = L.marker(
+                [49.287051, -123.1290774],
+                {}
+            ).addTo(feature_group_7c320a700dca4fa289946127eb2148f8);
+        
+    
+            var icon_49e92e5559e04de98de2cd523728109e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_be2652ef72b64e60880f08aa31a6f7ca.setIcon(icon_49e92e5559e04de98de2cd523728109e);
+        
+    
+            marker_be2652ef72b64e60880f08aa31a6f7ca.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Forage Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_e8e5c37441b14029a001608c5c62bd61 = L.featureGroup(
+                {}
+            ).addTo(map_11bbd349883a47a895e4f51e19db643c);
+        
+    
+            var marker_d8efdfb7f44e41abae903b4d2e98c899 = L.marker(
+                [49.2900302494, -123.1168956816],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_0715f57d1bfb4ecabb86ea434b60873a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_d8efdfb7f44e41abae903b4d2e98c899.setIcon(icon_0715f57d1bfb4ecabb86ea434b60873a);
+        
+    
+            marker_d8efdfb7f44e41abae903b4d2e98c899.bindTooltip(
+                `<div>
+                      Reviews:3.5	Name:De Dutch
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ea988a94c3684f6390403bc0e9dc5baf = L.circle(
+                [49.2900302494, -123.1168956816],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var marker_c68dbfc4f5b541a8a51b41f64db14e97 = L.marker(
+                [49.2858315, -123.1153183],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_e0ff4f849c994f859d4e94c4edd31f16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_c68dbfc4f5b541a8a51b41f64db14e97.setIcon(icon_e0ff4f849c994f859d4e94c4edd31f16);
+        
+    
+            marker_c68dbfc4f5b541a8a51b41f64db14e97.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Scoozis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e3bfa7f96774ae486d783c1ee28acfe = L.marker(
+                [49.2860544973, -123.1229372446],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_a5f15aeb0c85496ba22f2b9edaacdb96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_6e3bfa7f96774ae486d783c1ee28acfe.setIcon(icon_a5f15aeb0c85496ba22f2b9edaacdb96);
+        
+    
+            marker_6e3bfa7f96774ae486d783c1ee28acfe.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :49th Parallel Coffee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ddc48f77bf043d894e283e8d200b7b0 = L.marker(
+                [49.2916656936, -123.1283824472],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_bc7b83736da143d290402c04645caeeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_8ddc48f77bf043d894e283e8d200b7b0.setIcon(icon_bc7b83736da143d290402c04645caeeb);
+        
+    
+            marker_8ddc48f77bf043d894e283e8d200b7b0.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :6 Degrees Eatery
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_399123d162764bd3ae523e0586426ab7 = L.marker(
+                [49.2827746, -123.1116823],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_9d4468966e72444ca850db871cdb0579 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_399123d162764bd3ae523e0586426ab7.setIcon(icon_9d4468966e72444ca850db871cdb0579);
+        
+    
+            marker_399123d162764bd3ae523e0586426ab7.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Finch's Tea & Coffee House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b27d383e6d94665afab1d9950aedd32 = L.marker(
+                [49.282825, -123.11028],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_b5955d26e6984a7baa08d77507f7e78d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_1b27d383e6d94665afab1d9950aedd32.setIcon(icon_b5955d26e6984a7baa08d77507f7e78d);
+        
+    
+            marker_1b27d383e6d94665afab1d9950aedd32.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Nemesis Coffee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_365e182cb5584531bcd3deec90233f1f = L.marker(
+                [49.287051, -123.1290774],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_4358833e824841a09e514cfd77739a5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_365e182cb5584531bcd3deec90233f1f.setIcon(icon_4358833e824841a09e514cfd77739a5d);
+        
+    
+            marker_365e182cb5584531bcd3deec90233f1f.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Forage
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a8809d640984d809955a3564aa2b767 = L.marker(
+                [49.2804429973, -123.1170362698],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_ff107d3d012948218ce98bd96651b508 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_7a8809d640984d809955a3564aa2b767.setIcon(icon_ff107d3d012948218ce98bd96651b508);
+        
+    
+            marker_7a8809d640984d809955a3564aa2b767.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Medina Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23c804eae02f41b9a63bf95de2924e09 = L.marker(
+                [49.2820857, -123.1076921],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_895a513d840846959e0b1eb18abfa0e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_23c804eae02f41b9a63bf95de2924e09.setIcon(icon_895a513d840846959e0b1eb18abfa0e1);
+        
+    
+            marker_23c804eae02f41b9a63bf95de2924e09.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Catch 122
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dddf57cf006043f5871e0ba4fd57cbef = L.marker(
+                [49.283194, -123.104445],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_68972391bd0e43a89cb1d67ba96c192f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_dddf57cf006043f5871e0ba4fd57cbef.setIcon(icon_68972391bd0e43a89cb1d67ba96c192f);
+        
+    
+            marker_dddf57cf006043f5871e0ba4fd57cbef.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Twisted Fork
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bdb6f0529d8f442782cd4891f0962eef = L.marker(
+                [49.278965668, -123.1162121147],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_472ccb9ffe9846a5976b71b66b33df1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_bdb6f0529d8f442782cd4891f0962eef.setIcon(icon_472ccb9ffe9846a5976b71b66b33df1c);
+        
+    
+            marker_bdb6f0529d8f442782cd4891f0962eef.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Le Petit Belge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c8d67e5b19546e693f32e2c04887092 = L.marker(
+                [49.2906701, -123.1339159],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_c70fe60a3d3b4dcf9002b0fb994302f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_7c8d67e5b19546e693f32e2c04887092.setIcon(icon_c70fe60a3d3b4dcf9002b0fb994302f7);
+        
+    
+            marker_7c8d67e5b19546e693f32e2c04887092.bindTooltip(
+                `<div>
+                      Reviews: 4.5	Name :Nero Belgian Waffle Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_01d181f3d3264c849b1e5800129f28f7 = L.marker(
+                [49.2834553, -123.1028539],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_dbb2d2a0282a417c932c59ff248a4be2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_01d181f3d3264c849b1e5800129f28f7.setIcon(icon_dbb2d2a0282a417c932c59ff248a4be2);
+        
+    
+            marker_01d181f3d3264c849b1e5800129f28f7.bindTooltip(
+                `<div>
+                      Reviews: 4.5	Name :Birds & the Beets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d2d390c1e384a4daee6568b7816fc84 = L.marker(
+                [49.2866689, -123.1341521],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_084becd91da142b0ab47e32bdc4e62f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_9d2d390c1e384a4daee6568b7816fc84.setIcon(icon_084becd91da142b0ab47e32bdc4e62f6);
+        
+    
+            marker_9d2d390c1e384a4daee6568b7816fc84.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Greenhorn Espresso Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55a7ef5a610a49eab9679d7944381b71 = L.marker(
+                [49.278481, -123.124598],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_03c1421459e24a508d815b1dc2050736 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_55a7ef5a610a49eab9679d7944381b71.setIcon(icon_03c1421459e24a508d815b1dc2050736);
+        
+    
+            marker_55a7ef5a610a49eab9679d7944381b71.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :The Templeton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78076c2ee68e45a1ad4274a109e6dd12 = L.marker(
+                [49.2797502, -123.1299447],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_54ea9f7c9a794e62abf23cad4d5f7564 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_78076c2ee68e45a1ad4274a109e6dd12.setIcon(icon_54ea9f7c9a794e62abf23cad4d5f7564);
+        
+    
+            marker_78076c2ee68e45a1ad4274a109e6dd12.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Joe's Grill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db69083524034d55be6109b5f1663c36 = L.marker(
+                [49.2823221457, -123.1346147395],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_587b2216d8c14cc590556e5147fe1a52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_db69083524034d55be6109b5f1663c36.setIcon(icon_587b2216d8c14cc590556e5147fe1a52);
+        
+    
+            marker_db69083524034d55be6109b5f1663c36.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Score on Davie
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02cb2d4314794e4986feb7a77d9ad704 = L.marker(
+                [49.2775691519, -123.1310182124],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_dd0434fb4740466ca82eb9610f58a966 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_02cb2d4314794e4986feb7a77d9ad704.setIcon(icon_dd0434fb4740466ca82eb9610f58a966);
+        
+    
+            marker_02cb2d4314794e4986feb7a77d9ad704.bindTooltip(
+                `<div>
+                      Reviews: 5.0	Name :Number e food
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_196b5a67a0a74018834568f9c97acdd7 = L.marker(
+                [49.2734565, -123.119265],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_bb580818b7a04871b2f7c9444aa1249f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_196b5a67a0a74018834568f9c97acdd7.setIcon(icon_bb580818b7a04871b2f7c9444aa1249f);
+        
+    
+            marker_196b5a67a0a74018834568f9c97acdd7.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :OEB Breakfast Co.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_baebe4e9c3014384898f44747c089bad = L.marker(
+                [49.2633418, -123.1141032],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_a8f55cd86f364bcd936e69cbb8d4dc7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_baebe4e9c3014384898f44747c089bad.setIcon(icon_a8f55cd86f364bcd936e69cbb8d4dc7f);
+        
+    
+            marker_baebe4e9c3014384898f44747c089bad.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Marulilu Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32f5c431fb25450f92dc4b051c1774ca = L.marker(
+                [49.269650984, -123.1440829486],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_4a689b8467ce48d0a33f281080b3065f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_32f5c431fb25450f92dc4b051c1774ca.setIcon(icon_4a689b8467ce48d0a33f281080b3065f);
+        
+    
+            marker_32f5c431fb25450f92dc4b051c1774ca.bindTooltip(
+                `<div>
+                      Reviews: 4.5	Name :Patisserie Lebeau
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b21a08e196ea4eb99b2287b8d14c2f75 = L.marker(
+                [49.2632037459, -123.110469593],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_253ce1835c464e7d8a10ac3263115017 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_b21a08e196ea4eb99b2287b8d14c2f75.setIcon(icon_253ce1835c464e7d8a10ac3263115017);
+        
+    
+            marker_b21a08e196ea4eb99b2287b8d14c2f75.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Aperture Coffee Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a42756210b0547808938f172674f222c = L.marker(
+                [49.2704812, -123.1472938],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_2b52f38339cf4136bb4cc38ba064df38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_a42756210b0547808938f172674f222c.setIcon(icon_2b52f38339cf4136bb4cc38ba064df38);
+        
+    
+            marker_a42756210b0547808938f172674f222c.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Rocky Mountain Flatbread
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30c95fe08260447aabe08d2060a9db04 = L.marker(
+                [49.2659984, -123.1387561],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_56e107b7b4064c0980c9dd49c345382a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_30c95fe08260447aabe08d2060a9db04.setIcon(icon_56e107b7b4064c0980c9dd49c345382a);
+        
+    
+            marker_30c95fe08260447aabe08d2060a9db04.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Paul's Omelettery Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c02dd6370b9040b6b260fa7a2fe977b4 = L.marker(
+                [49.2630504, -123.1015035],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_24367ca1e68443f28a36ce05ddfdf69b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_c02dd6370b9040b6b260fa7a2fe977b4.setIcon(icon_24367ca1e68443f28a36ce05ddfdf69b);
+        
+    
+            marker_c02dd6370b9040b6b260fa7a2fe977b4.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Fable Diner
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f3b8dfb4c704620a5d8bd71736ba05c = L.marker(
+                [49.281081, -123.072931],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_b1655f2027b0429889a39714c602f315 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_5f3b8dfb4c704620a5d8bd71736ba05c.setIcon(icon_b1655f2027b0429889a39714c602f315);
+        
+    
+            marker_5f3b8dfb4c704620a5d8bd71736ba05c.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Yolks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bee555ebf7c24032948c7750d0a03bbb = L.marker(
+                [49.2811259, -123.072895],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_f7cb097da0454111b2150886bc7053e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_bee555ebf7c24032948c7750d0a03bbb.setIcon(icon_f7cb097da0454111b2150886bc7053e1);
+        
+    
+            marker_bee555ebf7c24032948c7750d0a03bbb.bindTooltip(
+                `<div>
+                      Reviews: 4.5	Name :Yolk's Breakfast
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9c49173e9114ab8bbfb33ddd6cfd63d = L.marker(
+                [49.2599696, -123.1014001],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_8c38c17b600e4a5880921141e89053f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_f9c49173e9114ab8bbfb33ddd6cfd63d.setIcon(icon_8c38c17b600e4a5880921141e89053f7);
+        
+    
+            marker_f9c49173e9114ab8bbfb33ddd6cfd63d.bindTooltip(
+                `<div>
+                      Reviews: 4.5	Name :Maizal RMF
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8697b24448a645a493abc57b31f8b542 = L.marker(
+                [49.284691, -123.0655369],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_0524dbfdda1d4ec58736af343d564e98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_8697b24448a645a493abc57b31f8b542.setIcon(icon_0524dbfdda1d4ec58736af343d564e98);
+        
+    
+            marker_8697b24448a645a493abc57b31f8b542.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Scandilicious
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_feffac0d6fef45ba9b1bed3f02a87aa3 = L.marker(
+                [49.258568, -123.1385172],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_fbb84dfec5474e54b46708627c65f8ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_feffac0d6fef45ba9b1bed3f02a87aa3.setIcon(icon_fbb84dfec5474e54b46708627c65f8ab);
+        
+    
+            marker_feffac0d6fef45ba9b1bed3f02a87aa3.bindTooltip(
+                `<div>
+                      Reviews: 4.5	Name :Breakfast Table
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b97e487a37594a99b7edbc37ad15fe8c = L.marker(
+                [49.2577101, -123.1391105],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_ebb0b650fc4146d78c75db122d4436ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_b97e487a37594a99b7edbc37ad15fe8c.setIcon(icon_ebb0b650fc4146d78c75db122d4436ef);
+        
+    
+            marker_b97e487a37594a99b7edbc37ad15fe8c.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :The Rise Eatery
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_763db84cbe7e437fb8e52b2f7f0f0be0 = L.marker(
+                [49.2809215, -123.0610371],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_18cdcdfdf0744055ad1de533198ed830 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_763db84cbe7e437fb8e52b2f7f0f0be0.setIcon(icon_18cdcdfdf0744055ad1de533198ed830);
+        
+    
+            marker_763db84cbe7e437fb8e52b2f7f0f0be0.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :The Red Wagon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_179f7418d9164068a0df27e29357c459 = L.marker(
+                [49.2812947, -123.0589523],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_6e36e575f180431394a3690be17c20a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_179f7418d9164068a0df27e29357c459.setIcon(icon_6e36e575f180431394a3690be17c20a9);
+        
+    
+            marker_179f7418d9164068a0df27e29357c459.bindTooltip(
+                `<div>
+                      Reviews: 4.5	Name :Jackalope's Neighbourhood Dive
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a168c36e8063441ba4a70c25f113317b = L.marker(
+                [49.2682406, -123.1687859],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_e1fb9d52ae944f1d88b66e9b0a3f6a2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_a168c36e8063441ba4a70c25f113317b.setIcon(icon_e1fb9d52ae944f1d88b66e9b0a3f6a2b);
+        
+    
+            marker_a168c36e8063441ba4a70c25f113317b.bindTooltip(
+                `<div>
+                      Reviews: 4.5	Name :Chewie's Chicken & Biscuits
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93a28a7623a14b76ac9d1b1ef79a6a5e = L.marker(
+                [49.2682241464, -123.1690966116],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_cb2788bfafce4cb1a3c49222733ed489 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_93a28a7623a14b76ac9d1b1ef79a6a5e.setIcon(icon_cb2788bfafce4cb1a3c49222733ed489);
+        
+    
+            marker_93a28a7623a14b76ac9d1b1ef79a6a5e.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Linh Café - French Cooking
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f0076b903bb4aa5a70ae9fe982cb331 = L.marker(
+                [49.2484971, -123.1014653],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_09985a51fcfe4a65903636d12e7e3e10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_4f0076b903bb4aa5a70ae9fe982cb331.setIcon(icon_09985a51fcfe4a65903636d12e7e3e10);
+        
+    
+            marker_4f0076b903bb4aa5a70ae9fe982cb331.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :The Locus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f46747a1393044d3b6824a4ec78457bc = L.marker(
+                [49.259773, -123.0700274],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_267a783ba78b4a4890d178109fda86ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_f46747a1393044d3b6824a4ec78457bc.setIcon(icon_267a783ba78b4a4890d178109fda86ca);
+        
+    
+            marker_f46747a1393044d3b6824a4ec78457bc.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Bandidas Taqueria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5afcc2a635a74cd7897b04cbdcbba0c8 = L.marker(
+                [49.2478042, -123.1007361],
+                {}
+            ).addTo(feature_group_e8e5c37441b14029a001608c5c62bd61);
+        
+    
+            var icon_56097cd67526481ca043aecea30cf0d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_5afcc2a635a74cd7897b04cbdcbba0c8.setIcon(icon_56097cd67526481ca043aecea30cf0d0);
+        
+    
+            marker_5afcc2a635a74cd7897b04cbdcbba0c8.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Rocky Mountain Flatbread
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_9b2a251079444d3ebf3cb4cd5dd275cb = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_7e2cb4b49a68450c9d829ee51e3fdf0e,
+                },
+                overlays :  {
+                    "De Dutch Restaurant and its competiton in 1km radius" : feature_group_63ca419b2262422aa72dcc6a06cd1595,
+                    "De Dutch Restaurant and its competiton in 2km radius" : feature_group_930a05c0b047490eb48968f1820c05fa,
+                    "De Dutch Restaurant and its competiton in 3km radius" : feature_group_7c320a700dca4fa289946127eb2148f8,
+                    "De Dutch Restaurant and its competiton in 5km radius" : feature_group_e8e5c37441b14029a001608c5c62bd61,
+                },
+            };
+            L.control.layers(
+                layer_control_9b2a251079444d3ebf3cb4cd5dd275cb.base_layers,
+                layer_control_9b2a251079444d3ebf3cb4cd5dd275cb.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_11bbd349883a47a895e4f51e19db643c);
+        
+</script>

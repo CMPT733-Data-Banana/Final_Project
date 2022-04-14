@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_24f90c4685d244ac8b7f559fb78fd988 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_24f90c4685d244ac8b7f559fb78fd988" ></div>
+        
+</body>
+<script>    
+    
+            var map_24f90c4685d244ac8b7f559fb78fd988 = L.map(
+                "map_24f90c4685d244ac8b7f559fb78fd988",
+                {
+                    center: [49.285006, -123.11805],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_24f90c4685d244ac8b7f559fb78fd988);
+
+            
+
+        
+    
+            var tile_layer_365c713926924ee2ac404aaaf8f6b240 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_24f90c4685d244ac8b7f559fb78fd988);
+        
+    
+            var feature_group_5f6d4e28e3c245ce8f7b14f906d7cfe1 = L.featureGroup(
+                {}
+            ).addTo(map_24f90c4685d244ac8b7f559fb78fd988);
+        
+    
+            var marker_9234f14ea16b48be86b993cd0339dc0e = L.marker(
+                [49.2900302494, -123.1168956816],
+                {}
+            ).addTo(feature_group_5f6d4e28e3c245ce8f7b14f906d7cfe1);
+        
+    
+            var icon_9e7afe48b91c4f288658c3b2675ec9b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_9234f14ea16b48be86b993cd0339dc0e.setIcon(icon_9e7afe48b91c4f288658c3b2675ec9b7);
+        
+    
+            marker_9234f14ea16b48be86b993cd0339dc0e.bindTooltip(
+                `<div>
+                     Reviews:3.5	Name:De Dutch
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_68af4c9607584e688efc2c378f89d1b2 = L.featureGroup(
+                {}
+            ).addTo(map_24f90c4685d244ac8b7f559fb78fd988);
+        
+    
+            var marker_5aa62a1d09c74d9fba5f2c60ea54bdca = L.marker(
+                [49.2804429973, -123.1170362698],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_63a664817bf0489eba5f339cf94153fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_5aa62a1d09c74d9fba5f2c60ea54bdca.setIcon(icon_63a664817bf0489eba5f339cf94153fb);
+        
+    
+            marker_5aa62a1d09c74d9fba5f2c60ea54bdca.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Medina Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15d0568d95964b96a62e9dcb1436621b = L.marker(
+                [49.2642872, -123.1717761],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_08503e67009a42439d64ba45abc7d5af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_15d0568d95964b96a62e9dcb1436621b.setIcon(icon_08503e67009a42439d64ba45abc7d5af);
+        
+    
+            marker_15d0568d95964b96a62e9dcb1436621b.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Harvest Deli
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_542780dc19a9434a86d65dbb4a243a58 = L.marker(
+                [49.2820857, -123.1076921],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_81826f056c9d47a8b8ea11d9981b5495 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_542780dc19a9434a86d65dbb4a243a58.setIcon(icon_81826f056c9d47a8b8ea11d9981b5495);
+        
+    
+            marker_542780dc19a9434a86d65dbb4a243a58.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Catch 122
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_085903fbbc5c4122bf7eaa9236436be7 = L.marker(
+                [49.2633418, -123.1141032],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_98317062874441a7ab9cc649576ca4d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_085903fbbc5c4122bf7eaa9236436be7.setIcon(icon_98317062874441a7ab9cc649576ca4d4);
+        
+    
+            marker_085903fbbc5c4122bf7eaa9236436be7.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Marulilu Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab6f38972b9a454e9bc87a1220d847ec = L.marker(
+                [49.2478042, -123.1007361],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_b529a8fa9ecd464a8f10dd59b7f7d321 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_ab6f38972b9a454e9bc87a1220d847ec.setIcon(icon_b529a8fa9ecd464a8f10dd59b7f7d321);
+        
+    
+            marker_ab6f38972b9a454e9bc87a1220d847ec.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Rocky Mountain Flatbread
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_373ae97768264fc6ae66de978670d203 = L.marker(
+                [49.2782787, -123.1219729],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_3b15ea3edd974dd5ac409be4afae3659 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_373ae97768264fc6ae66de978670d203.setIcon(icon_3b15ea3edd974dd5ac409be4afae3659);
+        
+    
+            marker_373ae97768264fc6ae66de978670d203.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Nero Waffles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0383696640c94c37aaf488a406934369 = L.marker(
+                [49.2599696, -123.1014001],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_4c2bab2728784abfb9afd05553b5f55a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_0383696640c94c37aaf488a406934369.setIcon(icon_4c2bab2728784abfb9afd05553b5f55a);
+        
+    
+            marker_0383696640c94c37aaf488a406934369.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Maizal RMF
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4a8bde1d4ea4d6d936c6cbf9cb0380b = L.marker(
+                [49.258568, -123.1385172],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_ecb0fd81c357456c871bca217c3372c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_f4a8bde1d4ea4d6d936c6cbf9cb0380b.setIcon(icon_ecb0fd81c357456c871bca217c3372c5);
+        
+    
+            marker_f4a8bde1d4ea4d6d936c6cbf9cb0380b.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Breakfast Table
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5faab695a1bb4088a11dbbad8e59b8a3 = L.marker(
+                [49.2906701, -123.1339159],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_eb26d76bf4184518bdbda9b9ccd3e30e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_5faab695a1bb4088a11dbbad8e59b8a3.setIcon(icon_eb26d76bf4184518bdbda9b9ccd3e30e);
+        
+    
+            marker_5faab695a1bb4088a11dbbad8e59b8a3.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Nero Belgian Waffle Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c91540c308a74b1795079ac3f4a63a58 = L.marker(
+                [49.2831869855, -123.1044501409],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_b6442bc14dc54559847856886fe34175 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_c91540c308a74b1795079ac3f4a63a58.setIcon(icon_b6442bc14dc54559847856886fe34175);
+        
+    
+            marker_c91540c308a74b1795079ac3f4a63a58.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:L'Abattoir
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6356a6f53d394abdb86d74a7d74ba366 = L.marker(
+                [49.2640001, -123.1733634],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_3c0729f574db44f7a4b7522b84faa74c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_6356a6f53d394abdb86d74a7d74ba366.setIcon(icon_3c0729f574db44f7a4b7522b84faa74c);
+        
+    
+            marker_6356a6f53d394abdb86d74a7d74ba366.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Neverland Tea Salon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7dbcba79ee5549c8b557f4f6a1ae4ff3 = L.marker(
+                [49.2659984, -123.1387561],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_83124be25cf944b49b1a878554bed3e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_7dbcba79ee5549c8b557f4f6a1ae4ff3.setIcon(icon_83124be25cf944b49b1a878554bed3e9);
+        
+    
+            marker_7dbcba79ee5549c8b557f4f6a1ae4ff3.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Paul's Omelettery Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9cad925ca0e4c09ad95396940922129 = L.marker(
+                [49.269650984, -123.1440829486],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_830018c983684d96bf72772349eaa8eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_b9cad925ca0e4c09ad95396940922129.setIcon(icon_830018c983684d96bf72772349eaa8eb);
+        
+    
+            marker_b9cad925ca0e4c09ad95396940922129.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Patisserie Lebeau
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13028f227e5047ad8571c360c68e0b6d = L.marker(
+                [49.2630504, -123.1015035],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_9825820534874703adaaf0400282950c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_13028f227e5047ad8571c360c68e0b6d.setIcon(icon_9825820534874703adaaf0400282950c);
+        
+    
+            marker_13028f227e5047ad8571c360c68e0b6d.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Fable Diner
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_490030f1968748f7917cda8addc99036 = L.marker(
+                [49.2734565, -123.119265],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_86cc7a73547049579296368208553376 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_490030f1968748f7917cda8addc99036.setIcon(icon_86cc7a73547049579296368208553376);
+        
+    
+            marker_490030f1968748f7917cda8addc99036.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:OEB Breakfast Co.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50ac412250594601adec44bd1dbd915b = L.marker(
+                [49.2484971, -123.1014653],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_a09b8962a2da4fbc9da733707ffe2323 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_50ac412250594601adec44bd1dbd915b.setIcon(icon_a09b8962a2da4fbc9da733707ffe2323);
+        
+    
+            marker_50ac412250594601adec44bd1dbd915b.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:The Locus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96299891bdc748ccb2e768054e990559 = L.marker(
+                [49.278965668, -123.1162121147],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_ad085fa1dc2449308455d4fe0d872832 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_96299891bdc748ccb2e768054e990559.setIcon(icon_ad085fa1dc2449308455d4fe0d872832);
+        
+    
+            marker_96299891bdc748ccb2e768054e990559.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Le Petit Belge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ace67c3703c5408fb50d7d94dd406fd0 = L.marker(
+                [49.2813471028, -123.0274413899],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_d14d43a9d1cf41a5b87f1a524980531f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_ace67c3703c5408fb50d7d94dd406fd0.setIcon(icon_d14d43a9d1cf41a5b87f1a524980531f);
+        
+    
+            marker_ace67c3703c5408fb50d7d94dd406fd0.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Just Waffles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccc86ade34d941d8911698581241cd4b = L.marker(
+                [49.280155, -123.1095422],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_7be45a435df34ab1a099ef5302005d08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_ccc86ade34d941d8911698581241cd4b.setIcon(icon_7be45a435df34ab1a099ef5302005d08);
+        
+    
+            marker_ccc86ade34d941d8911698581241cd4b.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Jam Cafe on Beatty
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4da08980d254787a91196db478e47c2 = L.marker(
+                [49.2632037459, -123.110469593],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_64d6b8f9305a40a39a94586292a90982 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_d4da08980d254787a91196db478e47c2.setIcon(icon_64d6b8f9305a40a39a94586292a90982);
+        
+    
+            marker_d4da08980d254787a91196db478e47c2.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Aperture Coffee Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_702ef9f2bbd0429b9584188945139bfe = L.marker(
+                [49.283194, -123.104445],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_18e69e3b6f234b47ba84e01e586a1f78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_702ef9f2bbd0429b9584188945139bfe.setIcon(icon_18e69e3b6f234b47ba84e01e586a1f78);
+        
+    
+            marker_702ef9f2bbd0429b9584188945139bfe.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Twisted Fork
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6cd4aad10dd4f88a0527115b94941b1 = L.marker(
+                [49.259773, -123.0700274],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_067f5d35e7324a1fbb122113a277c64e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_b6cd4aad10dd4f88a0527115b94941b1.setIcon(icon_067f5d35e7324a1fbb122113a277c64e);
+        
+    
+            marker_b6cd4aad10dd4f88a0527115b94941b1.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Bandidas Taqueria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac33a958cc194882a4ad88fc640dead9 = L.marker(
+                [49.2858315, -123.1153183],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_53a04704129f454e8635ab1e8dd70f53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_ac33a958cc194882a4ad88fc640dead9.setIcon(icon_53a04704129f454e8635ab1e8dd70f53);
+        
+    
+            marker_ac33a958cc194882a4ad88fc640dead9.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Scoozis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5048e0ad7b664b489ce8348b7316e29a = L.marker(
+                [49.2880938, -123.1165232],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_906328b7dc76471695df2e1f8cccf564 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_5048e0ad7b664b489ce8348b7316e29a.setIcon(icon_906328b7dc76471695df2e1f8cccf564);
+        
+    
+            marker_5048e0ad7b664b489ce8348b7316e29a.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Botanist
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c3c9ce8329a4de99c73fa2e7e1c1576 = L.marker(
+                [49.281081, -123.072931],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_b0d06d580dd6424e8344641232c7fee5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_9c3c9ce8329a4de99c73fa2e7e1c1576.setIcon(icon_b0d06d580dd6424e8344641232c7fee5);
+        
+    
+            marker_9c3c9ce8329a4de99c73fa2e7e1c1576.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Yolks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f1903704e1241f69f01a0c093e52b6b = L.marker(
+                [49.268274, -123.154001],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_0ede54c2a89940dcaf75a77da75c6ce9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_5f1903704e1241f69f01a0c093e52b6b.setIcon(icon_0ede54c2a89940dcaf75a77da75c6ce9);
+        
+    
+            marker_5f1903704e1241f69f01a0c093e52b6b.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Jam Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96f2515a3dd348d48a2d6bc4327f250c = L.marker(
+                [49.2809215, -123.0610371],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_80cb7556e92e4f6a8dd6d523e0871714 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_96f2515a3dd348d48a2d6bc4327f250c.setIcon(icon_80cb7556e92e4f6a8dd6d523e0871714);
+        
+    
+            marker_96f2515a3dd348d48a2d6bc4327f250c.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:The Red Wagon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea7b6b2023ed4878809366ee71904f77 = L.marker(
+                [49.278481, -123.124598],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_d6ec93e636cf469294d6cba9e309e6b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_ea7b6b2023ed4878809366ee71904f77.setIcon(icon_d6ec93e636cf469294d6cba9e309e6b3);
+        
+    
+            marker_ea7b6b2023ed4878809366ee71904f77.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:The Templeton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4eca24e8dfa44794a66c1c709d6421ed = L.marker(
+                [49.2775691519, -123.1310182124],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_0fc2af4c99a6451d8668fab6141408bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_4eca24e8dfa44794a66c1c709d6421ed.setIcon(icon_0fc2af4c99a6451d8668fab6141408bf);
+        
+    
+            marker_4eca24e8dfa44794a66c1c709d6421ed.bindTooltip(
+                `<div>
+                     Reviews:5.0	Name:Number e food
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3095a85267e345859617fec9db91b506 = L.marker(
+                [49.2866689, -123.1341521],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_10437ddf1d6e48c19265f302a8639c56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_3095a85267e345859617fec9db91b506.setIcon(icon_10437ddf1d6e48c19265f302a8639c56);
+        
+    
+            marker_3095a85267e345859617fec9db91b506.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Greenhorn Espresso Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4b2274c831b46c7af37ace399ea20da = L.marker(
+                [49.2797502, -123.1299447],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_ff06cbef59cc4f6ab3e174eef06a8083 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_d4b2274c831b46c7af37ace399ea20da.setIcon(icon_ff06cbef59cc4f6ab3e174eef06a8083);
+        
+    
+            marker_d4b2274c831b46c7af37ace399ea20da.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Joe's Grill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d296c068c88c4483afc006b552d2a46d = L.marker(
+                [49.282825, -123.11028],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_8b958b9da7c0467b9a0a50aa3de5ca2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_d296c068c88c4483afc006b552d2a46d.setIcon(icon_8b958b9da7c0467b9a0a50aa3de5ca2b);
+        
+    
+            marker_d296c068c88c4483afc006b552d2a46d.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Nemesis Coffee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b7090dbcffd4f41ab0eb13f57bb415b = L.marker(
+                [49.2812947, -123.0589523],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_2723ceaaef42498aa2be4a0afa47819f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_1b7090dbcffd4f41ab0eb13f57bb415b.setIcon(icon_2723ceaaef42498aa2be4a0afa47819f);
+        
+    
+            marker_1b7090dbcffd4f41ab0eb13f57bb415b.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Jackalope's Neighbourhood Dive
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a1e836108d541f68b5674aa0142ba5e = L.marker(
+                [49.2827746, -123.1116823],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_32b43404a2c144c9b7554efe43ae3d3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_8a1e836108d541f68b5674aa0142ba5e.setIcon(icon_32b43404a2c144c9b7554efe43ae3d3f);
+        
+    
+            marker_8a1e836108d541f68b5674aa0142ba5e.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Finch's Tea & Coffee House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b86185f8d34440a9aae311d32eb0cdf1 = L.marker(
+                [49.2811259, -123.072895],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_b3767a775057499eadeeb8cac058e807 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_b86185f8d34440a9aae311d32eb0cdf1.setIcon(icon_b3767a775057499eadeeb8cac058e807);
+        
+    
+            marker_b86185f8d34440a9aae311d32eb0cdf1.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Yolk's Breakfast
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a17df20ab1734be1b93ab7ad7f2fe50b = L.marker(
+                [49.287051, -123.1290774],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_e121372453674911baf9ee6986338c8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_a17df20ab1734be1b93ab7ad7f2fe50b.setIcon(icon_e121372453674911baf9ee6986338c8d);
+        
+    
+            marker_a17df20ab1734be1b93ab7ad7f2fe50b.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Forage
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a7e8d7105f14088a27453e07ba87a42 = L.marker(
+                [49.284691, -123.0655369],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_0247f28c69344d488781eaa950fb9a5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_7a7e8d7105f14088a27453e07ba87a42.setIcon(icon_0247f28c69344d488781eaa950fb9a5a);
+        
+    
+            marker_7a7e8d7105f14088a27453e07ba87a42.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Scandilicious
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4169f7eaa8f478c885ba651ee9bbf43 = L.marker(
+                [49.2801460008, -123.1099253281],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_6377c96c7ae544b189f19443164ea0f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_d4169f7eaa8f478c885ba651ee9bbf43.setIcon(icon_6377c96c7ae544b189f19443164ea0f9);
+        
+    
+            marker_d4169f7eaa8f478c885ba651ee9bbf43.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Chambar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2ed40dcaa1a47ed8393dbe5252d33f5 = L.marker(
+                [49.2916656936, -123.1283824472],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_de761871cb714a9aa6a0b013b4024f9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_f2ed40dcaa1a47ed8393dbe5252d33f5.setIcon(icon_de761871cb714a9aa6a0b013b4024f9f);
+        
+    
+            marker_f2ed40dcaa1a47ed8393dbe5252d33f5.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:6 Degrees Eatery
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a84df2b05934032b7cacd9c1002c2e5 = L.marker(
+                [49.2823221457, -123.1346147395],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_d18a03ce1eae439f9ca9377d4e614343 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_7a84df2b05934032b7cacd9c1002c2e5.setIcon(icon_d18a03ce1eae439f9ca9377d4e614343);
+        
+    
+            marker_7a84df2b05934032b7cacd9c1002c2e5.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Score on Davie
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad82e1937830499ca960de2a2bd3c511 = L.marker(
+                [49.2834553, -123.1028539],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_95af1b23fcbb4471b3db9b233a917f07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_ad82e1937830499ca960de2a2bd3c511.setIcon(icon_95af1b23fcbb4471b3db9b233a917f07);
+        
+    
+            marker_ad82e1937830499ca960de2a2bd3c511.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Birds & the Beets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55a37111d9b0467ab7e45bb1e4e3d417 = L.marker(
+                [49.2682406, -123.1687859],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_8502d5c0dc724a2e9dcb52254f93bc71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_55a37111d9b0467ab7e45bb1e4e3d417.setIcon(icon_8502d5c0dc724a2e9dcb52254f93bc71);
+        
+    
+            marker_55a37111d9b0467ab7e45bb1e4e3d417.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Chewie's Chicken & Biscuits
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff38dd2190fc41c2901dcfb4ac8e4ad2 = L.marker(
+                [49.2682241464, -123.1690966116],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_e3c6378c83664e6ba18f8a71da918602 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_ff38dd2190fc41c2901dcfb4ac8e4ad2.setIcon(icon_e3c6378c83664e6ba18f8a71da918602);
+        
+    
+            marker_ff38dd2190fc41c2901dcfb4ac8e4ad2.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Linh Café - French Cooking
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_859efff3ceab401398b98bb7e8c0c7a6 = L.marker(
+                [49.2782446, -123.1165993],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_360a2a32e6244dd18a08e8bba6d1caab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_859efff3ceab401398b98bb7e8c0c7a6.setIcon(icon_360a2a32e6244dd18a08e8bba6d1caab);
+        
+    
+            marker_859efff3ceab401398b98bb7e8c0c7a6.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Footo Croissant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9080415f2ec4546a968e80821ea5953 = L.marker(
+                [49.2577101, -123.1391105],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_382fc928e7b0499d8ac78ea96a4d2807 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_b9080415f2ec4546a968e80821ea5953.setIcon(icon_382fc928e7b0499d8ac78ea96a4d2807);
+        
+    
+            marker_b9080415f2ec4546a968e80821ea5953.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:The Rise Eatery
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e1127f023c642e78a665d4628aa1b56 = L.marker(
+                [49.2464617, -123.1014422],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_3f325a91f3f4467e864430ef5a1d1566 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_9e1127f023c642e78a665d4628aa1b56.setIcon(icon_3f325a91f3f4467e864430ef5a1d1566);
+        
+    
+            marker_9e1127f023c642e78a665d4628aa1b56.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Trilussa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c288cc38cee0423b8e6a097c2e6a5d68 = L.marker(
+                [49.2704812, -123.1472938],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_c2a55f7176414507bcc034bdbfe11da8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_c288cc38cee0423b8e6a097c2e6a5d68.setIcon(icon_c2a55f7176414507bcc034bdbfe11da8);
+        
+    
+            marker_c288cc38cee0423b8e6a097c2e6a5d68.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Rocky Mountain Flatbread
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cdde39b815b94923991d1c47c620b122 = L.marker(
+                [49.2860544973, -123.1229372446],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_43ad8ebd53c34281a9bf71e50fc3e0cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_cdde39b815b94923991d1c47c620b122.setIcon(icon_43ad8ebd53c34281a9bf71e50fc3e0cf);
+        
+    
+            marker_cdde39b815b94923991d1c47c620b122.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:49th Parallel Coffee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c1bfdf6a4824eec817d05796bf31277 = L.marker(
+                [49.2444802, -123.0644541],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_4f3014ee1b5c47779662d436d450421c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_0c1bfdf6a4824eec817d05796bf31277.setIcon(icon_4f3014ee1b5c47779662d436d450421c);
+        
+    
+            marker_0c1bfdf6a4824eec817d05796bf31277.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:The Tipper Restaurant & Review Room
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5caa65fd613046f9962f78da2909ef21 = L.marker(
+                [49.2708261, -123.1467714],
+                {}
+            ).addTo(feature_group_68af4c9607584e688efc2c378f89d1b2);
+        
+    
+            var icon_5d8dd195d58241099c6bc44431446aed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_5caa65fd613046f9962f78da2909ef21.setIcon(icon_5d8dd195d58241099c6bc44431446aed);
+        
+    
+            marker_5caa65fd613046f9962f78da2909ef21.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:AnnaLena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_e07491a8fe5f4b14953804e252961cf5 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_365c713926924ee2ac404aaaf8f6b240,
+                },
+                overlays :  {
+                    "De Dutch" : feature_group_5f6d4e28e3c245ce8f7b14f906d7cfe1,
+                    "De Dutch Competitors" : feature_group_68af4c9607584e688efc2c378f89d1b2,
+                },
+            };
+            L.control.layers(
+                layer_control_e07491a8fe5f4b14953804e252961cf5.base_layers,
+                layer_control_e07491a8fe5f4b14953804e252961cf5.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_24f90c4685d244ac8b7f559fb78fd988);
+        
+</script>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6deee4829c1e46f78688c7332713dcb7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6deee4829c1e46f78688c7332713dcb7" ></div>
+        
+</body>
+<script>    
+    
+            var map_6deee4829c1e46f78688c7332713dcb7 = L.map(
+                "map_6deee4829c1e46f78688c7332713dcb7",
+                {
+                    center: [49.285006, -123.11805],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_6deee4829c1e46f78688c7332713dcb7);
+
+            
+
+        
+    
+            var tile_layer_62dce261427e461a885f3e9145d3d150 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6deee4829c1e46f78688c7332713dcb7);
+        
+    
+            var feature_group_8521ef3fa12448c7a06a6200553d83bd = L.featureGroup(
+                {}
+            ).addTo(map_6deee4829c1e46f78688c7332713dcb7);
+        
+    
+            var marker_a666c8443c4d4a9cbd5d906d38cc2191 = L.marker(
+                [49.2787221, -123.1289473],
+                {}
+            ).addTo(feature_group_8521ef3fa12448c7a06a6200553d83bd);
+        
+    
+            var icon_43ca3e19393d4126bb00852508813a76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_a666c8443c4d4a9cbd5d906d38cc2191.setIcon(icon_43ca3e19393d4126bb00852508813a76);
+        
+    
+            marker_a666c8443c4d4a9cbd5d906d38cc2191.bindTooltip(
+                `<div>
+                     Reviews:3.0
+Name:Mucho Burrito
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae2e23eebb9b417ebaecc1544a546458 = L.marker(
+                [49.1980456965, -122.97910454],
+                {}
+            ).addTo(feature_group_8521ef3fa12448c7a06a6200553d83bd);
+        
+    
+            var icon_436d4ec9b9594ca3bbf5464ab309d2fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_ae2e23eebb9b417ebaecc1544a546458.setIcon(icon_436d4ec9b9594ca3bbf5464ab309d2fd);
+        
+    
+            marker_ae2e23eebb9b417ebaecc1544a546458.bindTooltip(
+                `<div>
+                     Reviews:3.0
+Name:Mucho Burrito
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b44f884da6e1499c8ea67a58b29ec1fa = L.marker(
+                [49.131666, -122.892143],
+                {}
+            ).addTo(feature_group_8521ef3fa12448c7a06a6200553d83bd);
+        
+    
+            var icon_82e3d2c1f4644a1d89cc8009b812d4a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_b44f884da6e1499c8ea67a58b29ec1fa.setIcon(icon_82e3d2c1f4644a1d89cc8009b812d4a4);
+        
+    
+            marker_b44f884da6e1499c8ea67a58b29ec1fa.bindTooltip(
+                `<div>
+                     Reviews:4.0
+Name:Mucho Burrito
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94e3e7036efb4f31be7c254ebbcc744c = L.marker(
+                [49.178842824, -122.8449907407],
+                {}
+            ).addTo(feature_group_8521ef3fa12448c7a06a6200553d83bd);
+        
+    
+            var icon_e22b5da599eb431689f6ea8ef5f12705 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_94e3e7036efb4f31be7c254ebbcc744c.setIcon(icon_e22b5da599eb431689f6ea8ef5f12705);
+        
+    
+            marker_94e3e7036efb4f31be7c254ebbcc744c.bindTooltip(
+                `<div>
+                     Reviews:3.5
+Name:Mucho Burrito
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_49d17174eaf24f36a7bbef2a0b29e787 = L.featureGroup(
+                {}
+            ).addTo(map_6deee4829c1e46f78688c7332713dcb7);
+        
+    
+            var marker_4e7a19c336dd4537ba473855503a04a9 = L.marker(
+                [49.2700904, -123.0694996],
+                {}
+            ).addTo(feature_group_49d17174eaf24f36a7bbef2a0b29e787);
+        
+    
+            var icon_d9e0bc63158b4e85800ed07806ad85fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_4e7a19c336dd4537ba473855503a04a9.setIcon(icon_d9e0bc63158b4e85800ed07806ad85fb);
+        
+    
+            marker_4e7a19c336dd4537ba473855503a04a9.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:La Mezcaleria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_584597b01b044d60b236f9ef03ea4d7a = L.marker(
+                [49.2788282, -123.1240439],
+                {}
+            ).addTo(feature_group_49d17174eaf24f36a7bbef2a0b29e787);
+        
+    
+            var icon_8220fd50cd2b4f93a10374fa7aee6216 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_584597b01b044d60b236f9ef03ea4d7a.setIcon(icon_8220fd50cd2b4f93a10374fa7aee6216);
+        
+    
+            marker_584597b01b044d60b236f9ef03ea4d7a.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:The Mexican Antojitos Y Cantina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2003c4f943b14540909e5bddf7c7ee14 = L.marker(
+                [49.2569043787, -123.08924633],
+                {}
+            ).addTo(feature_group_49d17174eaf24f36a7bbef2a0b29e787);
+        
+    
+            var icon_13dbb74088ca4a9d8a7cddebcf9e4333 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_2003c4f943b14540909e5bddf7c7ee14.setIcon(icon_13dbb74088ca4a9d8a7cddebcf9e4333);
+        
+    
+            marker_2003c4f943b14540909e5bddf7c7ee14.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Sal y Limón
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39fa74da284648df9f0682fcbe54846f = L.marker(
+                [49.2877737, -123.1412635],
+                {}
+            ).addTo(feature_group_49d17174eaf24f36a7bbef2a0b29e787);
+        
+    
+            var icon_782dd350aa13495db02112f14837f366 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_39fa74da284648df9f0682fcbe54846f.setIcon(icon_782dd350aa13495db02112f14837f366);
+        
+    
+            marker_39fa74da284648df9f0682fcbe54846f.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:La Catrina Tacos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_5faba4ae8aa24f0094b2322fd4ffa798 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_62dce261427e461a885f3e9145d3d150,
+                },
+                overlays :  {
+                    "Mucho Buritto" : feature_group_8521ef3fa12448c7a06a6200553d83bd,
+                    "Mucho Buritto Competitors" : feature_group_49d17174eaf24f36a7bbef2a0b29e787,
+                },
+            };
+            L.control.layers(
+                layer_control_5faba4ae8aa24f0094b2322fd4ffa798.base_layers,
+                layer_control_5faba4ae8aa24f0094b2322fd4ffa798.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_6deee4829c1e46f78688c7332713dcb7);
+        
+</script>

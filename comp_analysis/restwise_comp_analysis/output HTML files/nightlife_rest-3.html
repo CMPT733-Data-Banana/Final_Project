@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5dce2366729342d89f7373e2c1ba9e80 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5dce2366729342d89f7373e2c1ba9e80" ></div>
+        
+</body>
+<script>    
+    
+            var map_5dce2366729342d89f7373e2c1ba9e80 = L.map(
+                "map_5dce2366729342d89f7373e2c1ba9e80",
+                {
+                    center: [49.285006, -123.11805],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_5dce2366729342d89f7373e2c1ba9e80);
+
+            
+
+        
+    
+            var tile_layer_f3b65d8058f14978a9f5b9cb3d93a487 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5dce2366729342d89f7373e2c1ba9e80);
+        
+    
+            var feature_group_94d62a3027024f83b35e816596202f17 = L.featureGroup(
+                {}
+            ).addTo(map_5dce2366729342d89f7373e2c1ba9e80);
+        
+    
+            var marker_ebd3e81c2bf74f0496c5ad23e5dccff5 = L.marker(
+                [49.322767, -123.1074589],
+                {}
+            ).addTo(feature_group_94d62a3027024f83b35e816596202f17);
+        
+    
+            var icon_4204575728ac492cb8506c6cc3c4c270 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_ebd3e81c2bf74f0496c5ad23e5dccff5.setIcon(icon_4204575728ac492cb8506c6cc3c4c270);
+        
+    
+            marker_ebd3e81c2bf74f0496c5ad23e5dccff5.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Cactus Club Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_892e061ad7d0438397fa4f71b6ecfa57 = L.featureGroup(
+                {}
+            ).addTo(map_5dce2366729342d89f7373e2c1ba9e80);
+        
+    
+            var marker_9208452a3a8e4859b7adcd68f3ab664a = L.marker(
+                [49.3109167, -123.0799962],
+                {}
+            ).addTo(feature_group_892e061ad7d0438397fa4f71b6ecfa57);
+        
+    
+            var icon_d9cb6d457b9347a3a46540cbbcf9c946 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_9208452a3a8e4859b7adcd68f3ab664a.setIcon(icon_d9cb6d457b9347a3a46540cbbcf9c946);
+        
+    
+            marker_9208452a3a8e4859b7adcd68f3ab664a.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Raglans
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27914e09ca554b1787052e737d3e8b18 = L.marker(
+                [49.3268742454, -122.9493626042],
+                {}
+            ).addTo(feature_group_892e061ad7d0438397fa4f71b6ecfa57);
+        
+    
+            var icon_d6666bfece2e448fa89bdeafc2c41291 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_27914e09ca554b1787052e737d3e8b18.setIcon(icon_d6666bfece2e448fa89bdeafc2c41291);
+        
+    
+            marker_27914e09ca554b1787052e737d3e8b18.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Arms Reach Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ffec1ba1ac5479ebc3596db6efeb61e = L.marker(
+                [49.3106956, -123.0803348],
+                {}
+            ).addTo(feature_group_892e061ad7d0438397fa4f71b6ecfa57);
+        
+    
+            var icon_563f15cf9acc4c5bb72b3b57f39ba0d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_0ffec1ba1ac5479ebc3596db6efeb61e.setIcon(icon_563f15cf9acc4c5bb72b3b57f39ba0d1);
+        
+    
+            marker_0ffec1ba1ac5479ebc3596db6efeb61e.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Burgoo Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9ed96d77fb74ff19aa0cc6640b42903 = L.marker(
+                [49.3235761, -123.1019458],
+                {}
+            ).addTo(feature_group_892e061ad7d0438397fa4f71b6ecfa57);
+        
+    
+            var icon_e9a284236e174be9ad53806612e936f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_e9ed96d77fb74ff19aa0cc6640b42903.setIcon(icon_e9a284236e174be9ad53806612e936f9);
+        
+    
+            marker_e9ed96d77fb74ff19aa0cc6640b42903.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Smoke and Bones
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_7cb0cc4751344ba1972009d174efa54b = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_f3b65d8058f14978a9f5b9cb3d93a487,
+                },
+                overlays :  {
+                    "Cactus Club Cafe" : feature_group_94d62a3027024f83b35e816596202f17,
+                    "Cactus Club Cafe Competitors" : feature_group_892e061ad7d0438397fa4f71b6ecfa57,
+                },
+            };
+            L.control.layers(
+                layer_control_7cb0cc4751344ba1972009d174efa54b.base_layers,
+                layer_control_7cb0cc4751344ba1972009d174efa54b.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_5dce2366729342d89f7373e2c1ba9e80);
+        
+</script>

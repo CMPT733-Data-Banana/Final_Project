@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e69fab04393f46c58d21f887824f3962 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e69fab04393f46c58d21f887824f3962" ></div>
+        
+</body>
+<script>    
+    
+            var map_e69fab04393f46c58d21f887824f3962 = L.map(
+                "map_e69fab04393f46c58d21f887824f3962",
+                {
+                    center: [49.285006, -123.11805],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9819a69c3c504426b5d4c92851b6a48f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e69fab04393f46c58d21f887824f3962);
+        
+    
+            var feature_group_18994d1e58124fb1b060b96ec3524f9a = L.featureGroup(
+                {}
+            ).addTo(map_e69fab04393f46c58d21f887824f3962);
+        
+    
+            var marker_f822d20895ad494bacfd95676fd47af0 = L.marker(
+                [49.2787221, -123.1289473],
+                {}
+            ).addTo(feature_group_18994d1e58124fb1b060b96ec3524f9a);
+        
+    
+            var icon_f1fba8c5bcbf41a5996758660ed778e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_f822d20895ad494bacfd95676fd47af0.setIcon(icon_f1fba8c5bcbf41a5996758660ed778e0);
+        
+    
+            marker_f822d20895ad494bacfd95676fd47af0.bindTooltip(
+                `<div>
+                      Reviews:3.0	 Name:Mucho Burrito Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_88fab2c7cfb04b4ca02c3c07bd6b3c36 = L.circle(
+                [49.2787221, -123.1289473],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_18994d1e58124fb1b060b96ec3524f9a);
+        
+    
+            var marker_3acff6c96ab14c09be847726f8c76b37 = L.marker(
+                [49.1980456965, -122.97910454],
+                {}
+            ).addTo(feature_group_18994d1e58124fb1b060b96ec3524f9a);
+        
+    
+            var icon_f22918f19cac4b059cceafe64cc80807 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_3acff6c96ab14c09be847726f8c76b37.setIcon(icon_f22918f19cac4b059cceafe64cc80807);
+        
+    
+            marker_3acff6c96ab14c09be847726f8c76b37.bindTooltip(
+                `<div>
+                      Reviews:3.0	 Name:Mucho Burrito Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_add9ac379b6943229a4b7b6e59c6ae77 = L.circle(
+                [49.1980456965, -122.97910454],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_18994d1e58124fb1b060b96ec3524f9a);
+        
+    
+            var marker_d5d97ffa3ea649919e194e8703aa8cd3 = L.marker(
+                [49.178842824, -122.8449907407],
+                {}
+            ).addTo(feature_group_18994d1e58124fb1b060b96ec3524f9a);
+        
+    
+            var icon_9785464728794e819e7e95f1480421bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_d5d97ffa3ea649919e194e8703aa8cd3.setIcon(icon_9785464728794e819e7e95f1480421bf);
+        
+    
+            marker_d5d97ffa3ea649919e194e8703aa8cd3.bindTooltip(
+                `<div>
+                      Reviews:3.5	 Name:Mucho Burrito Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6c4106f7e0a544dea5eb6b694a7f2f8d = L.circle(
+                [49.178842824, -122.8449907407],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_18994d1e58124fb1b060b96ec3524f9a);
+        
+    
+            var marker_a91de0a57f2c4a1ca927ea677d1a147c = L.marker(
+                [49.2700904, -123.0694996],
+                {}
+            ).addTo(feature_group_18994d1e58124fb1b060b96ec3524f9a);
+        
+    
+            var icon_ee8778c1a6fb45919093ea0f73ec7d52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_a91de0a57f2c4a1ca927ea677d1a147c.setIcon(icon_ee8778c1a6fb45919093ea0f73ec7d52);
+        
+    
+            marker_a91de0a57f2c4a1ca927ea677d1a147c.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:La Mezcaleria Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_05f73590cb8a4ffd8726313fe30eff70 = L.featureGroup(
+                {}
+            ).addTo(map_e69fab04393f46c58d21f887824f3962);
+        
+    
+            var marker_339ba567a3f541639f33a0b6cd33f8ad = L.marker(
+                [49.2787221, -123.1289473],
+                {}
+            ).addTo(feature_group_05f73590cb8a4ffd8726313fe30eff70);
+        
+    
+            var icon_8d71b12b69354e97a2f1c7f9d4cede0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_339ba567a3f541639f33a0b6cd33f8ad.setIcon(icon_8d71b12b69354e97a2f1c7f9d4cede0b);
+        
+    
+            marker_339ba567a3f541639f33a0b6cd33f8ad.bindTooltip(
+                `<div>
+                      Reviews:3.0	 Name:Mucho Burrito Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2ec5d13f3e9245baa85ad3a036199360 = L.circle(
+                [49.2787221, -123.1289473],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05f73590cb8a4ffd8726313fe30eff70);
+        
+    
+            var marker_5884e38c7c0a42958702e6acc1fb8de4 = L.marker(
+                [49.1980456965, -122.97910454],
+                {}
+            ).addTo(feature_group_05f73590cb8a4ffd8726313fe30eff70);
+        
+    
+            var icon_f281d90574874a89b354d164e957d831 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_5884e38c7c0a42958702e6acc1fb8de4.setIcon(icon_f281d90574874a89b354d164e957d831);
+        
+    
+            marker_5884e38c7c0a42958702e6acc1fb8de4.bindTooltip(
+                `<div>
+                      Reviews:3.0	 Name:Mucho Burrito Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c20e66a411984eefb1afd5b65cf5baba = L.circle(
+                [49.1980456965, -122.97910454],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05f73590cb8a4ffd8726313fe30eff70);
+        
+    
+            var marker_ab75682ffb344611957d226183ae830e = L.marker(
+                [49.178842824, -122.8449907407],
+                {}
+            ).addTo(feature_group_05f73590cb8a4ffd8726313fe30eff70);
+        
+    
+            var icon_3bb317ca3296413ea4b2f830bea9cde2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_ab75682ffb344611957d226183ae830e.setIcon(icon_3bb317ca3296413ea4b2f830bea9cde2);
+        
+    
+            marker_ab75682ffb344611957d226183ae830e.bindTooltip(
+                `<div>
+                      Reviews:3.5	 Name:Mucho Burrito Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_640d74a7a69d423ba0abe74bc1fe0fe6 = L.circle(
+                [49.178842824, -122.8449907407],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_05f73590cb8a4ffd8726313fe30eff70);
+        
+    
+            var feature_group_8af870ee4ff2467f9d40f5ce09deb46e = L.featureGroup(
+                {}
+            ).addTo(map_e69fab04393f46c58d21f887824f3962);
+        
+    
+            var marker_0dd3dda54db84188ba9af3bc345cc965 = L.marker(
+                [49.2787221, -123.1289473],
+                {}
+            ).addTo(feature_group_8af870ee4ff2467f9d40f5ce09deb46e);
+        
+    
+            var icon_5d4603a3a0bd495ea413324bcc209755 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_0dd3dda54db84188ba9af3bc345cc965.setIcon(icon_5d4603a3a0bd495ea413324bcc209755);
+        
+    
+            marker_0dd3dda54db84188ba9af3bc345cc965.bindTooltip(
+                `<div>
+                      Reviews:3.0	 Name:Mucho Burrito Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8aa66af7f9d94877987fc3129ed9e8d9 = L.circle(
+                [49.2787221, -123.1289473],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8af870ee4ff2467f9d40f5ce09deb46e);
+        
+    
+            var marker_37a6b68ac1e94c939066a31ce6a2fd53 = L.marker(
+                [49.1980456965, -122.97910454],
+                {}
+            ).addTo(feature_group_8af870ee4ff2467f9d40f5ce09deb46e);
+        
+    
+            var icon_47c27acb50ae4a22aa798bdc9731a579 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_37a6b68ac1e94c939066a31ce6a2fd53.setIcon(icon_47c27acb50ae4a22aa798bdc9731a579);
+        
+    
+            marker_37a6b68ac1e94c939066a31ce6a2fd53.bindTooltip(
+                `<div>
+                      Reviews:3.0	 Name:Mucho Burrito Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b975bd6f58a34fd3813570d62c97b34d = L.circle(
+                [49.1980456965, -122.97910454],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8af870ee4ff2467f9d40f5ce09deb46e);
+        
+    
+            var marker_c9599b6eebac43b7b8e65688dbe20bfe = L.marker(
+                [49.178842824, -122.8449907407],
+                {}
+            ).addTo(feature_group_8af870ee4ff2467f9d40f5ce09deb46e);
+        
+    
+            var icon_331c86b621a746bab2c41e15cb1e6675 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_c9599b6eebac43b7b8e65688dbe20bfe.setIcon(icon_331c86b621a746bab2c41e15cb1e6675);
+        
+    
+            marker_c9599b6eebac43b7b8e65688dbe20bfe.bindTooltip(
+                `<div>
+                      Reviews:3.5	 Name:Mucho Burrito Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_30ec6411b309493ea67431a94f1e39ca = L.circle(
+                [49.178842824, -122.8449907407],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8af870ee4ff2467f9d40f5ce09deb46e);
+        
+    
+            var feature_group_796ddb3f78c34ad7811972cda3ee7e8f = L.featureGroup(
+                {}
+            ).addTo(map_e69fab04393f46c58d21f887824f3962);
+        
+    
+            var marker_faeedbef0d5343f083b3eb9dbd55ecde = L.marker(
+                [49.2787221, -123.1289473],
+                {}
+            ).addTo(feature_group_796ddb3f78c34ad7811972cda3ee7e8f);
+        
+    
+            var icon_e3deba700d1a403ca90acf83b24c48d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_faeedbef0d5343f083b3eb9dbd55ecde.setIcon(icon_e3deba700d1a403ca90acf83b24c48d6);
+        
+    
+            marker_faeedbef0d5343f083b3eb9dbd55ecde.bindTooltip(
+                `<div>
+                      Reviews:3.0	 Name:Mucho Burrito Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_83072b775fbf4f2f91257dd44c1973b3 = L.circle(
+                [49.2787221, -123.1289473],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_796ddb3f78c34ad7811972cda3ee7e8f);
+        
+    
+            var marker_ea55809662764ca8bbd7fc2b97e2e094 = L.marker(
+                [49.1980456965, -122.97910454],
+                {}
+            ).addTo(feature_group_796ddb3f78c34ad7811972cda3ee7e8f);
+        
+    
+            var icon_b612277216fd4dcca95f43d8ee128e16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_ea55809662764ca8bbd7fc2b97e2e094.setIcon(icon_b612277216fd4dcca95f43d8ee128e16);
+        
+    
+            marker_ea55809662764ca8bbd7fc2b97e2e094.bindTooltip(
+                `<div>
+                      Reviews:3.0	 Name:Mucho Burrito Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2f7df29225f9424db08d4bea6dab455f = L.circle(
+                [49.1980456965, -122.97910454],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_796ddb3f78c34ad7811972cda3ee7e8f);
+        
+    
+            var marker_bbab72f64b014aa09fd62d062858eb34 = L.marker(
+                [49.178842824, -122.8449907407],
+                {}
+            ).addTo(feature_group_796ddb3f78c34ad7811972cda3ee7e8f);
+        
+    
+            var icon_4e2df2d8d7c849f583353653b30ca292 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_bbab72f64b014aa09fd62d062858eb34.setIcon(icon_4e2df2d8d7c849f583353653b30ca292);
+        
+    
+            marker_bbab72f64b014aa09fd62d062858eb34.bindTooltip(
+                `<div>
+                      Reviews:3.5	 Name:Mucho Burrito Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_adcea85b16a54744936e727950373485 = L.circle(
+                [49.178842824, -122.8449907407],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_796ddb3f78c34ad7811972cda3ee7e8f);
+        
+    
+            var layer_control_d1e050cceef6410dbd12fab28a0b8979 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_9819a69c3c504426b5d4c92851b6a48f,
+                },
+                overlays :  {
+                    "Mucho Burrito and its competiton in 5km radius" : feature_group_18994d1e58124fb1b060b96ec3524f9a,
+                    "Mucho Burrito and its competiton in 1km radius" : feature_group_05f73590cb8a4ffd8726313fe30eff70,
+                    "Mucho Burrito and its competiton in 2km radius" : feature_group_8af870ee4ff2467f9d40f5ce09deb46e,
+                    "Mucho Burrito and its competiton in 3km radius" : feature_group_796ddb3f78c34ad7811972cda3ee7e8f,
+                },
+            };
+            L.control.layers(
+                layer_control_d1e050cceef6410dbd12fab28a0b8979.base_layers,
+                layer_control_d1e050cceef6410dbd12fab28a0b8979.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_e69fab04393f46c58d21f887824f3962);
+        
+</script>

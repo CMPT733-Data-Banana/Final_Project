@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8b284b1aefe84a07bb9a8cb6d7d894a9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8b284b1aefe84a07bb9a8cb6d7d894a9" ></div>
+        
+</body>
+<script>    
+    
+            var map_8b284b1aefe84a07bb9a8cb6d7d894a9 = L.map(
+                "map_8b284b1aefe84a07bb9a8cb6d7d894a9",
+                {
+                    center: [49.285006, -123.11805],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_8b284b1aefe84a07bb9a8cb6d7d894a9);
+
+            
+
+        
+    
+            var tile_layer_85233f46210748b3b6170f013e726e09 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8b284b1aefe84a07bb9a8cb6d7d894a9);
+        
+    
+            var feature_group_e82c1ce93f6a4c96b4ff4e0475680cfb = L.featureGroup(
+                {}
+            ).addTo(map_8b284b1aefe84a07bb9a8cb6d7d894a9);
+        
+    
+            var marker_d40e96ef418444a79a480e9aa5c42162 = L.marker(
+                [49.2744339, -123.0691883],
+                {}
+            ).addTo(feature_group_e82c1ce93f6a4c96b4ff4e0475680cfb);
+        
+    
+            var icon_4fd74b67b1fd471b9998832576f9305f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d40e96ef418444a79a480e9aa5c42162.setIcon(icon_4fd74b67b1fd471b9998832576f9305f);
+        
+    
+            marker_d40e96ef418444a79a480e9aa5c42162.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Sula Indian Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_6f5b06d2c31c40a988bf2e4853e89fe8 = L.featureGroup(
+                {}
+            ).addTo(map_8b284b1aefe84a07bb9a8cb6d7d894a9);
+        
+    
+            var marker_0714fc59800646e8897719554ec99adb = L.marker(
+                [49.2590241, -123.1153551],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_957fe26a6078474ab00ebf349e9a0a86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_0714fc59800646e8897719554ec99adb.setIcon(icon_957fe26a6078474ab00ebf349e9a0a86);
+        
+    
+            marker_0714fc59800646e8897719554ec99adb.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Indian Roti Kitchen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6b5f8f4243b412d90dc85dc92ca4ef4 = L.marker(
+                [49.2652347, -123.1449675],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_d077e1361e74454d8d14ce1d6610448f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_a6b5f8f4243b412d90dc85dc92ca4ef4.setIcon(icon_d077e1361e74454d8d14ce1d6610448f);
+        
+    
+            marker_a6b5f8f4243b412d90dc85dc92ca4ef4.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Delhi 6 Indian Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a046e8802c74f43a4600fe1a508666f = L.marker(
+                [49.2135408, -123.1401399],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_2e88c9a4bad84979a14705849c11cc04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_5a046e8802c74f43a4600fe1a508666f.setIcon(icon_2e88c9a4bad84979a14705849c11cc04);
+        
+    
+            marker_5a046e8802c74f43a4600fe1a508666f.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Mirchi Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_371445641fdc4150841f6f13b67774a9 = L.marker(
+                [49.3279866, -123.0724282],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_31f69989cdf4480a80c3136537b894ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_371445641fdc4150841f6f13b67774a9.setIcon(icon_31f69989cdf4480a80c3136537b894ab);
+        
+    
+            marker_371445641fdc4150841f6f13b67774a9.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Indian Fusion Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be4d58210d674b8fa8117cf66a8acfdf = L.marker(
+                [49.2097506, -123.0908287],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_37f54e96b4064657afb397a200462194 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_be4d58210d674b8fa8117cf66a8acfdf.setIcon(icon_37f54e96b4064657afb397a200462194);
+        
+    
+            marker_be4d58210d674b8fa8117cf66a8acfdf.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Dosa Corner
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f6bb8d96d6b413fbfe7b9a14075c282 = L.marker(
+                [49.2773553, -122.8047918],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_84a291f4b97749c786c530cd55b73943 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_7f6bb8d96d6b413fbfe7b9a14075c282.setIcon(icon_84a291f4b97749c786c530cd55b73943);
+        
+    
+            marker_7f6bb8d96d6b413fbfe7b9a14075c282.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Lazzez's Grill Indian Cuisine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_599c63ad10b54db785ed48f11de13024 = L.marker(
+                [49.1545199, -122.8905009],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_43b052f578504da9aa4bd8c8f4a8e3a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_599c63ad10b54db785ed48f11de13024.setIcon(icon_43b052f578504da9aa4bd8c8f4a8e3a2);
+        
+    
+            marker_599c63ad10b54db785ed48f11de13024.bindTooltip(
+                `<div>
+                     Reviews:4.5	Name:Tasty Indian Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15fa0e864ccf431db6bb86ae90522eb0 = L.marker(
+                [49.2643887, -123.1726934],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_6d1dd294504a43bab3ae9c1ab6caca70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_15fa0e864ccf431db6bb86ae90522eb0.setIcon(icon_6d1dd294504a43bab3ae9c1ab6caca70);
+        
+    
+            marker_15fa0e864ccf431db6bb86ae90522eb0.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:East Is East
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73d7acbac74b475c8478618843af3e51 = L.marker(
+                [49.2840226346, -123.1218401661],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_75af39da322e4ba889024a3586810b31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_73d7acbac74b475c8478618843af3e51.setIcon(icon_75af39da322e4ba889024a3586810b31);
+        
+    
+            marker_73d7acbac74b475c8478618843af3e51.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Salam Bombay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_381977b664bc4a5b821f71fa631f4c64 = L.marker(
+                [49.2457947, -123.0659378],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_809b509fa3f14361a579dcb2b3005618 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_381977b664bc4a5b821f71fa631f4c64.setIcon(icon_809b509fa3f14361a579dcb2b3005618);
+        
+    
+            marker_381977b664bc4a5b821f71fa631f4c64.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Green Lettuce Indian Style Chinese Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d8263945150400b8670b5bec3f3dccb = L.marker(
+                [49.2231570511, -122.9326033619],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_0fd2b6b622864690bb1aae45ab0792fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_1d8263945150400b8670b5bec3f3dccb.setIcon(icon_0fd2b6b622864690bb1aae45ab0792fd);
+        
+    
+            marker_1d8263945150400b8670b5bec3f3dccb.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Indian Bombay Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51567b46d75c4cb685395f493e486618 = L.marker(
+                [49.139607, -122.890066],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_157e5b2288c247019b87c177dbe52776 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_51567b46d75c4cb685395f493e486618.setIcon(icon_157e5b2288c247019b87c177dbe52776);
+        
+    
+            marker_51567b46d75c4cb685395f493e486618.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Apna Chaat House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a302ddc35fd4d3d982ad31d70fcba36 = L.marker(
+                [49.282163, -123.133735],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_c8694d7cce7948fa8b83ef45a0e0ecc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_7a302ddc35fd4d3d982ad31d70fcba36.setIcon(icon_c8694d7cce7948fa8b83ef45a0e0ecc8);
+        
+    
+            marker_7a302ddc35fd4d3d982ad31d70fcba36.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Davie Dosa Company
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f7f52db109643cfbe36013638a43e72 = L.marker(
+                [49.2544359, -123.0200503],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_8861fa8e1f09485dba323a6ae3113edc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_2f7f52db109643cfbe36013638a43e72.setIcon(icon_8861fa8e1f09485dba323a6ae3113edc);
+        
+    
+            marker_2f7f52db109643cfbe36013638a43e72.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Agra Tandoori Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_beade129f67f4eed9a8dbd13bad78b69 = L.marker(
+                [49.250466, -123.0763251],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_a76f879e822140d999fbeb10ac3b5254 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_beade129f67f4eed9a8dbd13bad78b69.setIcon(icon_a76f879e822140d999fbeb10ac3b5254);
+        
+    
+            marker_beade129f67f4eed9a8dbd13bad78b69.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:House of Dosas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bd3db0ddb6c49bb948f73d100cac4a0 = L.marker(
+                [49.2743171, -123.1239687],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_7feec52473ee4b7383602d025a618051 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_4bd3db0ddb6c49bb948f73d100cac4a0.setIcon(icon_7feec52473ee4b7383602d025a618051);
+        
+    
+            marker_4bd3db0ddb6c49bb948f73d100cac4a0.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Tasty Indian Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9178f17c76ad42de95c258c4293eb350 = L.marker(
+                [49.2362803934, -123.0417118816],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_8bd0096d91ba4253944b8ceada415e7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_9178f17c76ad42de95c258c4293eb350.setIcon(icon_8bd0096d91ba4253944b8ceada415e7f);
+        
+    
+            marker_9178f17c76ad42de95c258c4293eb350.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Chili Pepper House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ba6b0821faf4d0b9ecb7ea644f78613 = L.marker(
+                [49.2453529, -123.101476],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_a5486e30c96042b285b5491e5421cc48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_0ba6b0821faf4d0b9ecb7ea644f78613.setIcon(icon_a5486e30c96042b285b5491e5421cc48);
+        
+    
+            marker_0ba6b0821faf4d0b9ecb7ea644f78613.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:East is East
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ced9f1272a64d1ab94d2785a48f568b = L.marker(
+                [49.284819, -123.125714],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_1dd47346f110474ea2ef7f0741ad97d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_1ced9f1272a64d1ab94d2785a48f568b.setIcon(icon_1dd47346f110474ea2ef7f0741ad97d2);
+        
+    
+            marker_1ced9f1272a64d1ab94d2785a48f568b.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Spicy 6 Fine Indian Cuisine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6408fd96f55407892e155cb87154072 = L.marker(
+                [49.251, -123.07699],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_3b36fac490ff4393b2598bc8c9a30d58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_b6408fd96f55407892e155cb87154072.setIcon(icon_3b36fac490ff4393b2598bc8c9a30d58);
+        
+    
+            marker_b6408fd96f55407892e155cb87154072.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Dosa Factory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c34aeaa65314739b6e087f2b14ffe5d = L.marker(
+                [49.2575375, -123.1147884],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_a8e415375166447b95cc9096173670fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_2c34aeaa65314739b6e087f2b14ffe5d.setIcon(icon_a8e415375166447b95cc9096173670fc);
+        
+    
+            marker_2c34aeaa65314739b6e087f2b14ffe5d.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Vij's Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38d69e1e02f841678f793da6d46d4813 = L.marker(
+                [49.2639679, -123.1695571],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_a14bcdafa1824275b8a01f477231e8c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_38d69e1e02f841678f793da6d46d4813.setIcon(icon_a14bcdafa1824275b8a01f477231e8c7);
+        
+    
+            marker_38d69e1e02f841678f793da6d46d4813.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Tandoori Fusion
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97ae0f23555f4dfe9bbcc6b3f40bea56 = L.marker(
+                [49.263478, -123.130517],
+                {}
+            ).addTo(feature_group_6f5b06d2c31c40a988bf2e4853e89fe8);
+        
+    
+            var icon_a9b342eaef764c8c892e6b8d999a05fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_97ae0f23555f4dfe9bbcc6b3f40bea56.setIcon(icon_a9b342eaef764c8c892e6b8d999a05fd);
+        
+    
+            marker_97ae0f23555f4dfe9bbcc6b3f40bea56.bindTooltip(
+                `<div>
+                     Reviews:4.0	Name:Raga Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_ed22bf9f3700492984ea0799d8f511db = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_85233f46210748b3b6170f013e726e09,
+                },
+                overlays :  {
+                    "SULA Indian Restaurant" : feature_group_e82c1ce93f6a4c96b4ff4e0475680cfb,
+                    "SULA Indian Restaurant Competitors" : feature_group_6f5b06d2c31c40a988bf2e4853e89fe8,
+                },
+            };
+            L.control.layers(
+                layer_control_ed22bf9f3700492984ea0799d8f511db.base_layers,
+                layer_control_ed22bf9f3700492984ea0799d8f511db.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_8b284b1aefe84a07bb9a8cb6d7d894a9);
+        
+</script>
