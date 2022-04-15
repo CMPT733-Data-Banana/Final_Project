@@ -1,5 +1,7 @@
 # Final_Project
 
+Dish Out web tool link: https://dishout.000webhostapp.com/
+
 Competitor Analysis
 
 To run these files, ensure that you change path according to input files location in your system. 
@@ -33,6 +35,8 @@ This includes analysis on all competitors that serve same cuisine as that of hos
 
 /restwise_radius_map
 This includes analysis on all competitors of host restaurant with radius constraints. ( 5KM, 3KM, 2KM, 1KM)
+
+Instruction for UI folder:
 
 Webpages:
 
