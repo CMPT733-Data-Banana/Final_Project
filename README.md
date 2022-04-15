@@ -44,7 +44,7 @@ Webpages:
 
 2. new.html: For Aspiring Restaurant owners, consists of Popular Restaurants page, Competition Aorund page and Reviews Analysis (click Aspiring Restaurateurs owners for this page)
 
-3.existing.html: For Existing Restaurant owners, consists of Success Potential page and Attribute Analysis page (click Existing Restaurateurs owners for this page)
+ 3.existing.html: For Existing Restaurant owners, consists of Success Potential page and Attribute Analysis page (click Existing Restaurateurs owners for this page)
 
 4. reviews.html: Reviews Analysis page, accesible through Existing Restaurateurs page. (click on Reviews Analysis)
 
