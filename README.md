@@ -3,18 +3,15 @@
 Competitor Analysis
 
 /Data Extraction
--data_extraction.ipynb.
 This includes the steps to extract data from from yelp api 
--Output
 This is extraction for 50 records 
 
 
 
 /Data Cleaning
--data_cleaning.ipynb
+
 This includes the steps to clean the extracted data 
--Output
-bc_rest_open.csv
+
 
 
 /Input 
