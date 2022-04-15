@@ -2,6 +2,8 @@
 
 Competitor Analysis
 
+To run these files, ensure that you change path according to input files location in your system. 
+
 /Data Extraction
 This includes the steps to extract data from from yelp api 
 This is extraction for 50 records 
@@ -9,7 +11,6 @@ This is extraction for 50 records
 
 
 /Data Cleaning
-
 This includes the steps to clean the extracted data 
 
 
