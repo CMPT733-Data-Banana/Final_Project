@@ -66,4 +66,36 @@ Folder:
 
 5. The /images folder contains the webimages such as background
 
+Success Prediction Folder:
+
+1.First Run EDA Business 
+  - Input: bc_rest_open.csv, cat_list.csv 
+  - Output: business_list.csv
+
+2.Model Selection
+  - Input:business_list.csv, attributes.csv
+  - Output:business_df_merged.csv, rf_model.sav
+
+3.Test Prediction
+  - Input:business_df_merged.csv
+  - Ouput: rf_df.csv
+  
+
+ rf_df.csv is then visualized using Tableau
+
+Attritube Analysis:
+  -Input:Business.csv(From Google Drive)
+  -Output:attributes.csv
+
+Reviews Analysis
+
+1.The /Data Contains the folders(or links to files) required to run the program
+2.The /Data_Preprocessing Contains the scrripts to convert the files in a useable manner
+3.The /Monthly_Sentiment_Analysis contains scripts to return the monthly sentiment across time for different types of restaurants
+4.The /Lexicon_sentiment Contains the positive and negative txt files for sentiment
+5.The /EDA files consist of the initial EDA files and visualizations
+6.The /Polarity files consist the script to run polarity 
+7.The /WordCloud consist of scripts to develop wordcloud files
+8.The /Visualizations folder consists of all the visualizations created
+
 
