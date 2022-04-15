@@ -57,7 +57,7 @@
     "source_gps = ColumnDataSource(data=dict(lat=df1['latitude'], lon=df1['latitude']))\n",
     "initial_map_options = GMapOptions(lat=49.285006, lng=-123.118050, map_type=\"roadmap\", zoom=11)\n",
     "\n",
-    "p = gmap(\"AIzaSyCPK5YIx7ZzUjfChnH8R7eAd2mnL27pPaI\", \n",
+    "p = gmap(\"ADD API KEY HERE\", \n",
     "map_options=initial_map_options, title=\"BC\",plot_width=800, plot_height=00)\n",
     "p.circle(x=\"lon\", y=\"lat\", size=15, fill_color=\"blue\", fill_alpha=0.8, source=source_gps)\n",
     "\n",
