@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_313523d4877f47918a7a5a7bc7766acb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_313523d4877f47918a7a5a7bc7766acb" ></div>
+        
+</body>
+<script>    
+    
+            var map_313523d4877f47918a7a5a7bc7766acb = L.map(
+                "map_313523d4877f47918a7a5a7bc7766acb",
+                {
+                    center: [49.285006, -123.11805],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_19919cb192f541428009728a888925f3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_313523d4877f47918a7a5a7bc7766acb);
+        
+    
+            var feature_group_1502925ed0f443a9b8fae327d3666458 = L.featureGroup(
+                {}
+            ).addTo(map_313523d4877f47918a7a5a7bc7766acb);
+        
+    
+            var marker_bea68931ad9e4fa1ad3d9ca84ca2455c = L.marker(
+                [49.256699, -123.101936],
+                {}
+            ).addTo(feature_group_1502925ed0f443a9b8fae327d3666458);
+        
+    
+            var icon_d357db7e02d3413fa34141c236c333c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_bea68931ad9e4fa1ad3d9ca84ca2455c.setIcon(icon_d357db7e02d3413fa34141c236c333c0);
+        
+    
+            marker_bea68931ad9e4fa1ad3d9ca84ca2455c.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Toshi Sushi Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0b63f2cdf15c44c0a0f60fa6b6a20e3d = L.circle(
+                [49.256699, -123.101936],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1502925ed0f443a9b8fae327d3666458);
+        
+    
+            var marker_091cddac3a034eac961d30a24048ac8b = L.marker(
+                [49.2505379542, -123.1011797288],
+                {}
+            ).addTo(feature_group_1502925ed0f443a9b8fae327d3666458);
+        
+    
+            var icon_bb834584c9504453a01dfb94602d432f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_091cddac3a034eac961d30a24048ac8b.setIcon(icon_bb834584c9504453a01dfb94602d432f);
+        
+    
+            marker_091cddac3a034eac961d30a24048ac8b.bindTooltip(
+                `<div>
+                     Reviews: 4.0	Name:Sushi Mania Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25a1d29658884866a9c6c018d10ae4f6 = L.marker(
+                [49.2579297, -123.1146171],
+                {}
+            ).addTo(feature_group_1502925ed0f443a9b8fae327d3666458);
+        
+    
+            var icon_ebaef688febb4d30add0811bbefe5939 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_25a1d29658884866a9c6c018d10ae4f6.setIcon(icon_ebaef688febb4d30add0811bbefe5939);
+        
+    
+            marker_25a1d29658884866a9c6c018d10ae4f6.bindTooltip(
+                `<div>
+                     Reviews: 4.0	Name:Shiro Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_9593c34a7bcc40d189e823ad40b84e3c = L.featureGroup(
+                {}
+            ).addTo(map_313523d4877f47918a7a5a7bc7766acb);
+        
+    
+            var marker_1d0e490713cd42cdb7f9a750ba43deed = L.marker(
+                [49.256699, -123.101936],
+                {}
+            ).addTo(feature_group_9593c34a7bcc40d189e823ad40b84e3c);
+        
+    
+            var icon_c48061845cf140519ec36e3aedfe808a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_1d0e490713cd42cdb7f9a750ba43deed.setIcon(icon_c48061845cf140519ec36e3aedfe808a);
+        
+    
+            marker_1d0e490713cd42cdb7f9a750ba43deed.bindTooltip(
+                `<div>
+                      Reviews:4.0	Name:Toshi Sushi Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3e6064206b5449128ec6443a5dfc44cd = L.circle(
+                [49.256699, -123.101936],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9593c34a7bcc40d189e823ad40b84e3c);
+        
+    
+            var marker_dec99ac604bb4d8a843ef9fbbec58995 = L.marker(
+                [49.2505379542, -123.1011797288],
+                {}
+            ).addTo(feature_group_9593c34a7bcc40d189e823ad40b84e3c);
+        
+    
+            var icon_7070849e6e5d457eb45eb1915b9e9772 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_dec99ac604bb4d8a843ef9fbbec58995.setIcon(icon_7070849e6e5d457eb45eb1915b9e9772);
+        
+    
+            marker_dec99ac604bb4d8a843ef9fbbec58995.bindTooltip(
+                `<div>
+                      Reviews:4.0	Name:Sushi Mania Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da38f0c897ad458b83651b502528bd21 = L.marker(
+                [49.2579297, -123.1146171],
+                {}
+            ).addTo(feature_group_9593c34a7bcc40d189e823ad40b84e3c);
+        
+    
+            var icon_1de15b48fccf434fb1b6b6e94dcbed00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_da38f0c897ad458b83651b502528bd21.setIcon(icon_1de15b48fccf434fb1b6b6e94dcbed00);
+        
+    
+            marker_da38f0c897ad458b83651b502528bd21.bindTooltip(
+                `<div>
+                      Reviews:4.0	Name:Shiro Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68d18bee38ca420198be35b71c8c145d = L.marker(
+                [49.264087, -123.1138643],
+                {}
+            ).addTo(feature_group_9593c34a7bcc40d189e823ad40b84e3c);
+        
+    
+            var icon_e313b3acdfea443b8063d86f5e9282d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_68d18bee38ca420198be35b71c8c145d.setIcon(icon_e313b3acdfea443b8063d86f5e9282d3);
+        
+    
+            marker_68d18bee38ca420198be35b71c8c145d.bindTooltip(
+                `<div>
+                      Reviews:4.0	Name:Westcoast Poke Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49eae270b46046b392a2745713b49998 = L.marker(
+                [49.2411806, -123.1016703],
+                {}
+            ).addTo(feature_group_9593c34a7bcc40d189e823ad40b84e3c);
+        
+    
+            var icon_10b2b468d8ec4f9faee1ab743ba14399 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_49eae270b46046b392a2745713b49998.setIcon(icon_10b2b468d8ec4f9faee1ab743ba14399);
+        
+    
+            marker_49eae270b46046b392a2745713b49998.bindTooltip(
+                `<div>
+                      Reviews:4.0	Name:Sushi Hub Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_c2c56d979f81435a9db4ff8d1fc26a4b = L.featureGroup(
+                {}
+            ).addTo(map_313523d4877f47918a7a5a7bc7766acb);
+        
+    
+            var marker_b2e02d96f3684fffbf8d953fd242af9f = L.marker(
+                [49.256699, -123.101936],
+                {}
+            ).addTo(feature_group_c2c56d979f81435a9db4ff8d1fc26a4b);
+        
+    
+            var icon_b033c75960d248d4a37eda4347b94df3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_b2e02d96f3684fffbf8d953fd242af9f.setIcon(icon_b033c75960d248d4a37eda4347b94df3);
+        
+    
+            marker_b2e02d96f3684fffbf8d953fd242af9f.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Toshi Sushi Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_155f5e1dc7c64de0b1618a81e3ab03bc = L.circle(
+                [49.256699, -123.101936],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c2c56d979f81435a9db4ff8d1fc26a4b);
+        
+    
+            var marker_2101b57d376c4613ac2c9e8f85e43f94 = L.marker(
+                [49.2505379542, -123.1011797288],
+                {}
+            ).addTo(feature_group_c2c56d979f81435a9db4ff8d1fc26a4b);
+        
+    
+            var icon_47c30f5e0f5d4695a9336a003394e771 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_2101b57d376c4613ac2c9e8f85e43f94.setIcon(icon_47c30f5e0f5d4695a9336a003394e771);
+        
+    
+            marker_2101b57d376c4613ac2c9e8f85e43f94.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Sushi Mania Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23646a3ccd5d49d78e333351d39a021e = L.marker(
+                [49.2579297, -123.1146171],
+                {}
+            ).addTo(feature_group_c2c56d979f81435a9db4ff8d1fc26a4b);
+        
+    
+            var icon_de811191bde54032a85a3c8add70d1ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_23646a3ccd5d49d78e333351d39a021e.setIcon(icon_de811191bde54032a85a3c8add70d1ca);
+        
+    
+            marker_23646a3ccd5d49d78e333351d39a021e.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Shiro Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1ec64d03cd64cfc8ddcd2b3dadc9e67 = L.marker(
+                [49.264087, -123.1138643],
+                {}
+            ).addTo(feature_group_c2c56d979f81435a9db4ff8d1fc26a4b);
+        
+    
+            var icon_31573638035e421fa3d50a477a840815 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_b1ec64d03cd64cfc8ddcd2b3dadc9e67.setIcon(icon_31573638035e421fa3d50a477a840815);
+        
+    
+            marker_b1ec64d03cd64cfc8ddcd2b3dadc9e67.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Westcoast Poke Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ee73c74c1384bb3982280e27d3b54a6 = L.marker(
+                [49.2411806, -123.1016703],
+                {}
+            ).addTo(feature_group_c2c56d979f81435a9db4ff8d1fc26a4b);
+        
+    
+            var icon_bf7c38fe6c374e949096654734bfc20a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_1ee73c74c1384bb3982280e27d3b54a6.setIcon(icon_bf7c38fe6c374e949096654734bfc20a);
+        
+    
+            marker_1ee73c74c1384bb3982280e27d3b54a6.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Sushi Hub Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0482279a2044d7185c34b0e43d41cfa = L.marker(
+                [49.2757061, -123.1151383],
+                {}
+            ).addTo(feature_group_c2c56d979f81435a9db4ff8d1fc26a4b);
+        
+    
+            var icon_e96572534bcc4b3da75e323715241c98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_f0482279a2044d7185c34b0e43d41cfa.setIcon(icon_e96572534bcc4b3da75e323715241c98);
+        
+    
+            marker_f0482279a2044d7185c34b0e43d41cfa.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:FRESH Sushi Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8702513c110c47659700920582e16208 = L.marker(
+                [49.263875, -123.134264],
+                {}
+            ).addTo(feature_group_c2c56d979f81435a9db4ff8d1fc26a4b);
+        
+    
+            var icon_1adbd7591b1341d0997a8135a4328567 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_8702513c110c47659700920582e16208.setIcon(icon_1adbd7591b1341d0997a8135a4328567);
+        
+    
+            marker_8702513c110c47659700920582e16208.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Shizenya on Broadway Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2064f5d8d23c432eb85bcaf20aab4eb3 = L.marker(
+                [49.278444, -123.114329],
+                {}
+            ).addTo(feature_group_c2c56d979f81435a9db4ff8d1fc26a4b);
+        
+    
+            var icon_bc1c878f34034e1199604225177e93d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_2064f5d8d23c432eb85bcaf20aab4eb3.setIcon(icon_bc1c878f34034e1199604225177e93d9);
+        
+    
+            marker_2064f5d8d23c432eb85bcaf20aab4eb3.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Black Rice Izakaya Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66269f3829a04c6a885941f9d247d0ca = L.marker(
+                [49.2667364, -123.0694112],
+                {}
+            ).addTo(feature_group_c2c56d979f81435a9db4ff8d1fc26a4b);
+        
+    
+            var icon_864668512afb44adb2b8b5879f367bcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_66269f3829a04c6a885941f9d247d0ca.setIcon(icon_864668512afb44adb2b8b5879f367bcc);
+        
+    
+            marker_66269f3829a04c6a885941f9d247d0ca.bindTooltip(
+                `<div>
+                      Reviews:4.5	 Name:Kishimoto Japanese Kitchen Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ddb4f262f6c4e7e8cf17cd6e90e596c = L.marker(
+                [49.274238, -123.1270952],
+                {}
+            ).addTo(feature_group_c2c56d979f81435a9db4ff8d1fc26a4b);
+        
+    
+            var icon_b1c019ca654d4eb882b1ec5acda35025 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_1ddb4f262f6c4e7e8cf17cd6e90e596c.setIcon(icon_b1c019ca654d4eb882b1ec5acda35025);
+        
+    
+            marker_1ddb4f262f6c4e7e8cf17cd6e90e596c.bindTooltip(
+                `<div>
+                      Reviews:4.5	 Name:Kaide Sushi Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc216b16db1d4e97a912d7912411aecf = L.marker(
+                [49.2809829712, -123.1076583862],
+                {}
+            ).addTo(feature_group_c2c56d979f81435a9db4ff8d1fc26a4b);
+        
+    
+            var icon_6c88e41804224845a2703d70df341f26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_dc216b16db1d4e97a912d7912411aecf.setIcon(icon_6c88e41804224845a2703d70df341f26);
+        
+    
+            marker_dc216b16db1d4e97a912d7912411aecf.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Tsuki Sushi Bar Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_626bec81579d4e358da3bf9b37fb2d3f = L.marker(
+                [49.2716228, -123.0698886],
+                {}
+            ).addTo(feature_group_c2c56d979f81435a9db4ff8d1fc26a4b);
+        
+    
+            var icon_e64d9b02c5b44e43a4b622b482ea40e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_626bec81579d4e358da3bf9b37fb2d3f.setIcon(icon_e64d9b02c5b44e43a4b622b482ea40e7);
+        
+    
+            marker_626bec81579d4e358da3bf9b37fb2d3f.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Tatsu Japanese Bistro Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c607cc8c709742dbb435c5b108f3db91 = L.marker(
+                [49.2634105, -123.1416899],
+                {}
+            ).addTo(feature_group_c2c56d979f81435a9db4ff8d1fc26a4b);
+        
+    
+            var icon_d299c865b9ef4bb3829b3341407727f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_c607cc8c709742dbb435c5b108f3db91.setIcon(icon_d299c865b9ef4bb3829b3341407727f6);
+        
+    
+            marker_c607cc8c709742dbb435c5b108f3db91.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Suika Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_eda9b17c5c2741dbacc9fe3ee24a4426 = L.featureGroup(
+                {}
+            ).addTo(map_313523d4877f47918a7a5a7bc7766acb);
+        
+    
+            var marker_65abd8b51ad6437a97649616c53d7e7c = L.marker(
+                [49.256699, -123.101936],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_ca9ae6b247dc420ab90f990f3e7d4fa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_65abd8b51ad6437a97649616c53d7e7c.setIcon(icon_ca9ae6b247dc420ab90f990f3e7d4fa9);
+        
+    
+            marker_65abd8b51ad6437a97649616c53d7e7c.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Toshi Sushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_441993044ab04328b4773e16fc6699fa = L.circle(
+                [49.256699, -123.101936],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var marker_e7aa608220714ff9a43c4750d7057d4d = L.marker(
+                [49.2826418, -123.1151179],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_e8bb81b8f243471d828ee789cd8e5337 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_e7aa608220714ff9a43c4750d7057d4d.setIcon(icon_e8bb81b8f243471d828ee789cd8e5337);
+        
+    
+            marker_e7aa608220714ff9a43c4750d7057d4d.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Pokérrito
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aff39e832fbc4c108633d38d0c3f8ea7 = L.marker(
+                [49.2424827, -123.0598354],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_1a72181c1293444e8c09afde7f3a3709 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_aff39e832fbc4c108633d38d0c3f8ea7.setIcon(icon_1a72181c1293444e8c09afde7f3a3709);
+        
+    
+            marker_aff39e832fbc4c108633d38d0c3f8ea7.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Sushi By Yuji
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ffab26e6710434cbfc467849c379391 = L.marker(
+                [49.274238, -123.1270952],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_530cf88cc7454e60b4187943fb634f14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_1ffab26e6710434cbfc467849c379391.setIcon(icon_530cf88cc7454e60b4187943fb634f14);
+        
+    
+            marker_1ffab26e6710434cbfc467849c379391.bindTooltip(
+                `<div>
+                      Reviews: 4.5	 Name:Kaide Sushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d8486141d354736a23bd6c8e7931b4a = L.marker(
+                [49.2765541, -123.0768797],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_9e7be467af2c43dea61250c0b70ba5e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_6d8486141d354736a23bd6c8e7931b4a.setIcon(icon_9e7be467af2c43dea61250c0b70ba5e6);
+        
+    
+            marker_6d8486141d354736a23bd6c8e7931b4a.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Fujiya Japanese Foods
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0aa458dad26846218230af463d3e2b0d = L.marker(
+                [49.2795794103, -123.1238175184],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_e4330b8d35104e45867169ff85f080ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_0aa458dad26846218230af463d3e2b0d.setIcon(icon_e4330b8d35104e45867169ff85f080ab);
+        
+    
+            marker_0aa458dad26846218230af463d3e2b0d.bindTooltip(
+                `<div>
+                      Reviews: 4.5	 Name:Sushi Jin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63eefeb732534543a34b5b269046c63e = L.marker(
+                [49.2816505, -123.1326617],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_a75e6b54477c4157907a2ff4f4ebe955 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_63eefeb732534543a34b5b269046c63e.setIcon(icon_a75e6b54477c4157907a2ff4f4ebe955);
+        
+    
+            marker_63eefeb732534543a34b5b269046c63e.bindTooltip(
+                `<div>
+                      Reviews: 5.0	 Name:Tom Sushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41016368dc4f45cab1f3d0b8727fc6fb = L.marker(
+                [49.2716228, -123.0698886],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_b327a92707b04db5b14370fc1954fe19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_41016368dc4f45cab1f3d0b8727fc6fb.setIcon(icon_b327a92707b04db5b14370fc1954fe19);
+        
+    
+            marker_41016368dc4f45cab1f3d0b8727fc6fb.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Tatsu Japanese Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dece1c098aec44e98adf660858741238 = L.marker(
+                [49.263919, -123.154395],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_562d6f97ae164881a33268ae2bf0f702 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_dece1c098aec44e98adf660858741238.setIcon(icon_562d6f97ae164881a33268ae2bf0f702);
+        
+    
+            marker_dece1c098aec44e98adf660858741238.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Temaki Sushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7738d18755a54cbbb92bbb4264176a7c = L.marker(
+                [49.2579297, -123.1146171],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_7d6394852cee4555a1f45c988ed8682d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_7738d18755a54cbbb92bbb4264176a7c.setIcon(icon_7d6394852cee4555a1f45c988ed8682d);
+        
+    
+            marker_7738d18755a54cbbb92bbb4264176a7c.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Shiro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d299c707394d44978c3a8e2ac7f05809 = L.marker(
+                [49.276155, -123.1211291],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_feb1d5ab862e4f7ebb53d3a299b91cdb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_d299c707394d44978c3a8e2ac7f05809.setIcon(icon_feb1d5ab862e4f7ebb53d3a299b91cdb);
+        
+    
+            marker_d299c707394d44978c3a8e2ac7f05809.bindTooltip(
+                `<div>
+                      Reviews: 4.5	 Name:Blue Water Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5025df16fa6413d89cac1a5426fd2d7 = L.marker(
+                [49.2870083463, -123.1130513581],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_8f3847f0dbbf4f3aa72966d3039fb0e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_c5025df16fa6413d89cac1a5426fd2d7.setIcon(icon_8f3847f0dbbf4f3aa72966d3039fb0e5);
+        
+    
+            marker_c5025df16fa6413d89cac1a5426fd2d7.bindTooltip(
+                `<div>
+                      Reviews: 4.5	 Name:Miku
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_205d98a355494eb897b0a0353a921c45 = L.marker(
+                [49.2814077446, -123.1336959084],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_20ef6945eb8e42af898d4cc34e9f09ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_205d98a355494eb897b0a0353a921c45.setIcon(icon_20ef6945eb8e42af898d4cc34e9f09ae);
+        
+    
+            marker_205d98a355494eb897b0a0353a921c45.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Sushi Bar Maumi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_432683a8e9644e3094c9ccfe951c08fa = L.marker(
+                [49.2634105, -123.1416899],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_97ba189e4b44434f9c06b682f112dc0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_432683a8e9644e3094c9ccfe951c08fa.setIcon(icon_97ba189e4b44434f9c06b682f112dc0a);
+        
+    
+            marker_432683a8e9644e3094c9ccfe951c08fa.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Suika
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c268d565e5443b197f27433cc3b257d = L.marker(
+                [49.2757061, -123.1151383],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_070a1c873ee5485498254a7057bc2b92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_3c268d565e5443b197f27433cc3b257d.setIcon(icon_070a1c873ee5485498254a7057bc2b92);
+        
+    
+            marker_3c268d565e5443b197f27433cc3b257d.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:FRESH Sushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6016b951200b40c6ad5746f4676ff9c8 = L.marker(
+                [49.2808844, -123.1246278],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_04439eab4a064edfa0fa9289c60efb34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_6016b951200b40c6ad5746f4676ff9c8.setIcon(icon_04439eab4a064edfa0fa9289c60efb34);
+        
+    
+            marker_6016b951200b40c6ad5746f4676ff9c8.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Shizen Ya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_860c16b3b71c404db898cc470a73aba0 = L.marker(
+                [49.2752659, -123.1208155],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_5b762b505b8945379b048f4884641faa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_860c16b3b71c404db898cc470a73aba0.setIcon(icon_5b762b505b8945379b048f4884641faa);
+        
+    
+            marker_860c16b3b71c404db898cc470a73aba0.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Minami
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f97ad59fdb24f5ab17028c750456cc1 = L.marker(
+                [49.2667364, -123.0694112],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_0f2da2c4749341ff97c6c040ae57877f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_2f97ad59fdb24f5ab17028c750456cc1.setIcon(icon_0f2da2c4749341ff97c6c040ae57877f);
+        
+    
+            marker_2f97ad59fdb24f5ab17028c750456cc1.bindTooltip(
+                `<div>
+                      Reviews: 4.5	 Name:Kishimoto Japanese Kitchen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20ba7036f2464d2ab682b71cbee9a370 = L.marker(
+                [49.2505379542, -123.1011797288],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_b6e3e40c3892450d85f60a036a2102a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_20ba7036f2464d2ab682b71cbee9a370.setIcon(icon_b6e3e40c3892450d85f60a036a2102a4);
+        
+    
+            marker_20ba7036f2464d2ab682b71cbee9a370.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Sushi Mania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3caddeea39f94ba28593084acb1a1e9d = L.marker(
+                [49.264087, -123.1138643],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_4c116ef6ea18499880026229a1aa8901 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_3caddeea39f94ba28593084acb1a1e9d.setIcon(icon_4c116ef6ea18499880026229a1aa8901);
+        
+    
+            marker_3caddeea39f94ba28593084acb1a1e9d.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Westcoast Poke
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e0038420fef4ec0a69fb79c95ba3e7b = L.marker(
+                [49.2683236, -123.1547032],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_1da07cf875804b9db66652b003ba835e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_7e0038420fef4ec0a69fb79c95ba3e7b.setIcon(icon_1da07cf875804b9db66652b003ba835e);
+        
+    
+            marker_7e0038420fef4ec0a69fb79c95ba3e7b.bindTooltip(
+                `<div>
+                      Reviews: 4.5	 Name:Bishop's Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d50e897ba58445493d736224828cdf7 = L.marker(
+                [49.2411806, -123.1016703],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_df28ba27109d4615b39a2f7be3098030 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_2d50e897ba58445493d736224828cdf7.setIcon(icon_df28ba27109d4615b39a2f7be3098030);
+        
+    
+            marker_2d50e897ba58445493d736224828cdf7.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Sushi Hub
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9737518da26849158e0db0eee8779ddc = L.marker(
+                [49.267999042, -123.1583811343],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_21b0aa813b7d4499868661ec3cf2706a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_9737518da26849158e0db0eee8779ddc.setIcon(icon_21b0aa813b7d4499868661ec3cf2706a);
+        
+    
+            marker_9737518da26849158e0db0eee8779ddc.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Raisu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_349418a01a044ea6810f3078057d6b00 = L.marker(
+                [49.263875, -123.134264],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_ea1a71cad88f4289b81918815c192ea3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_349418a01a044ea6810f3078057d6b00.setIcon(icon_ea1a71cad88f4289b81918815c192ea3);
+        
+    
+            marker_349418a01a044ea6810f3078057d6b00.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Shizenya on Broadway
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad22e3383a304cc798d99df39e1f52cc = L.marker(
+                [49.278444, -123.114329],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_630061f0fe9e4e1092df683a8c4f4268 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_ad22e3383a304cc798d99df39e1f52cc.setIcon(icon_630061f0fe9e4e1092df683a8c4f4268);
+        
+    
+            marker_ad22e3383a304cc798d99df39e1f52cc.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Black Rice Izakaya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54539e1be88c4bdcad5595f013585d59 = L.marker(
+                [49.287111, -123.1247016],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_700978d123e94c63b10f3ccd043e2c11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_54539e1be88c4bdcad5595f013585d59.setIcon(icon_700978d123e94c63b10f3ccd043e2c11);
+        
+    
+            marker_54539e1be88c4bdcad5595f013585d59.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Yui Japanese Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebbe07b8d0c34ed3b401a8f4d4cdd685 = L.marker(
+                [49.233934, -123.1536898],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_ecef2911c258401489bec69bd520f4a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_ebbe07b8d0c34ed3b401a8f4d4cdd685.setIcon(icon_ecef2911c258401489bec69bd520f4a9);
+        
+    
+            marker_ebbe07b8d0c34ed3b401a8f4d4cdd685.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Ajisai Sushi Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59eff32582b54f15b37f671420df747c = L.marker(
+                [49.2809829712, -123.1076583862],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_8231043ada5441c4a3e8044f5c91e5fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_59eff32582b54f15b37f671420df747c.setIcon(icon_8231043ada5441c4a3e8044f5c91e5fe);
+        
+    
+            marker_59eff32582b54f15b37f671420df747c.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Tsuki Sushi Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4916d8e1e02f4ca9b384957ba42c5647 = L.marker(
+                [49.2726299, -123.1498174],
+                {}
+            ).addTo(feature_group_eda9b17c5c2741dbacc9fe3ee24a4426);
+        
+    
+            var icon_352bbe9be6504220a4a9961c184c03de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_4916d8e1e02f4ca9b384957ba42c5647.setIcon(icon_352bbe9be6504220a4a9961c184c03de);
+        
+    
+            marker_4916d8e1e02f4ca9b384957ba42c5647.bindTooltip(
+                `<div>
+                      Reviews: 4.0	 Name:Octopus Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_ed3cd17b48b24faa815366fe4e3738c2 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_19919cb192f541428009728a888925f3,
+                },
+                overlays :  {
+                    "Toshi Sushi and its competiton in 1km radius" : feature_group_1502925ed0f443a9b8fae327d3666458,
+                    "Toshi Sushi and its competiton in 2km radius" : feature_group_9593c34a7bcc40d189e823ad40b84e3c,
+                    "Toshi Sushi and its competiton in 3km radius" : feature_group_c2c56d979f81435a9db4ff8d1fc26a4b,
+                    "Toshi Sushi and its competiton in 5km radius" : feature_group_eda9b17c5c2741dbacc9fe3ee24a4426,
+                },
+            };
+            L.control.layers(
+                layer_control_ed3cd17b48b24faa815366fe4e3738c2.base_layers,
+                layer_control_ed3cd17b48b24faa815366fe4e3738c2.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_313523d4877f47918a7a5a7bc7766acb);
+        
+</script>

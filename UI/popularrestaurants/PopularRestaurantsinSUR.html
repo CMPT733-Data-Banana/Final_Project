@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8f1684217c6d485e9579d8eaf97acf36 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8f1684217c6d485e9579d8eaf97acf36" ></div>
+        
+</body>
+<script>    
+    
+            var map_8f1684217c6d485e9579d8eaf97acf36 = L.map(
+                "map_8f1684217c6d485e9579d8eaf97acf36",
+                {
+                    center: [49.285006, -123.11805],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_584acade289a45ca9cc9842929dd06a7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8f1684217c6d485e9579d8eaf97acf36);
+        
+    
+            var feature_group_50419fd8ee97449b8d875c18dadca786 = L.featureGroup(
+                {}
+            ).addTo(map_8f1684217c6d485e9579d8eaf97acf36);
+        
+    
+            var marker_ce354e9e94ad4a74831daf7313dc7e63 = L.marker(
+                [49.1899257, -122.8472044],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_ce354e9e94ad4a74831daf7313dc7e63.bindTooltip(
+                `<div>
+                     4.0,Pho Tam Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f910909f55d40e6b1257ce7bb8ca342 = L.marker(
+                [49.1899257, -122.8472044],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_2f910909f55d40e6b1257ce7bb8ca342.bindTooltip(
+                `<div>
+                     4.0,Pho Tam Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e02c2e215564795ad0c5730a1a05c50 = L.marker(
+                [49.1982139, -122.8119072],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_2e02c2e215564795ad0c5730a1a05c50.bindTooltip(
+                `<div>
+                     4.0,Pho Tau Bay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_570bfe14b0a946e2bf13d581194db283 = L.marker(
+                [49.1982139, -122.8119072],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_570bfe14b0a946e2bf13d581194db283.bindTooltip(
+                `<div>
+                     4.0,Pho Tau Bay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae06103785344f3bb0f803b8fe91b1c5 = L.marker(
+                [49.173723, -122.889641],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_ae06103785344f3bb0f803b8fe91b1c5.bindTooltip(
+                `<div>
+                     4.0,Kerala Kitchen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38847bf5b8c54b6a8a98f34724b17c30 = L.marker(
+                [49.1482388, -122.8714629],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_38847bf5b8c54b6a8a98f34724b17c30.bindTooltip(
+                `<div>
+                     4.0,Mayuri South Indian Cuisine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00d04124ff3440e7a8c8c9c462d23f07 = L.marker(
+                [49.164396558, -122.8768198085],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_00d04124ff3440e7a8c8c9c462d23f07.bindTooltip(
+                `<div>
+                     4.0,Barcelos Flame Grilled Chicken
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_782910d5e16949b98feab667b2a04e2a = L.marker(
+                [49.151484, -122.865506],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_782910d5e16949b98feab667b2a04e2a.bindTooltip(
+                `<div>
+                     4.0,Aggarwal Sweets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e46d6dd6da1b49c9a0f32fbd63f5f238 = L.marker(
+                [49.1906649, -122.8481137],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_e46d6dd6da1b49c9a0f32fbd63f5f238.bindTooltip(
+                `<div>
+                     4.0,Dominion Bar + Kitchen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a293b4bd0eae46d2815872d0dd3c4fd2 = L.marker(
+                [49.193965, -122.8457589],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_a293b4bd0eae46d2815872d0dd3c4fd2.bindTooltip(
+                `<div>
+                     4.0,Golden Chongqing House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25c085ac45334b39a8a23ec19e8da035 = L.marker(
+                [49.1696186, -122.8127638],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_25c085ac45334b39a8a23ec19e8da035.bindTooltip(
+                `<div>
+                     4.0,Nagoya Sushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6d553a519824bbd92dd5115c6c4ee00 = L.marker(
+                [49.1707315, -122.8941561],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_e6d553a519824bbd92dd5115c6c4ee00.bindTooltip(
+                `<div>
+                     4.0,Hot Millions Pizza & Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82992a2c56094da186d1c7f8abe4d130 = L.marker(
+                [49.1913015494, -122.8444238752],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_82992a2c56094da186d1c7f8abe4d130.bindTooltip(
+                `<div>
+                     4.0,Hot Pan Pizza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5facc16c944242a9a64c23507954e2b9 = L.marker(
+                [49.165115, -122.800961],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_5facc16c944242a9a64c23507954e2b9.bindTooltip(
+                `<div>
+                     4.0,Rokko Japanese Gourmet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4066e3989c404ea59626af2ba3791d5c = L.marker(
+                [49.1475597, -122.8664036],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_4066e3989c404ea59626af2ba3791d5c.bindTooltip(
+                `<div>
+                     4.0,Afghan Chopan Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f87d9196a0554965a3969c2b94984062 = L.marker(
+                [49.1625856, -122.8893579],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_f87d9196a0554965a3969c2b94984062.bindTooltip(
+                `<div>
+                     4.0,Golden Samosa Bakery
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e459ea5757fd4975bf4d68ef100ef8df = L.marker(
+                [49.130358, -122.868253],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_e459ea5757fd4975bf4d68ef100ef8df.bindTooltip(
+                `<div>
+                     4.0,Prabu Sweets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5fd0155175a841059f2262c586bd7c37 = L.marker(
+                [49.1557914, -122.8645204],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_5fd0155175a841059f2262c586bd7c37.bindTooltip(
+                `<div>
+                     4.0,Delta Pizza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_090cfd81ec5341fabf778d0e5a3454e9 = L.marker(
+                [49.1886495312, -122.8457026184],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_090cfd81ec5341fabf778d0e5a3454e9.bindTooltip(
+                `<div>
+                     4.0,Mahaveer Chefs choice
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1da6c92767c34959940ff6f94f533db1 = L.marker(
+                [49.1657867, -122.8016515],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_1da6c92767c34959940ff6f94f533db1.bindTooltip(
+                `<div>
+                     4.0,BBQ King Delight
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_758755f669d742c79aabd603cb7ca902 = L.marker(
+                [49.1504288, -122.8653784],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_758755f669d742c79aabd603cb7ca902.bindTooltip(
+                `<div>
+                     4.0,Dragon wok
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ee2bd3627eb48fa86d4f6d792a87069 = L.marker(
+                [49.1698432, -122.889848],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_8ee2bd3627eb48fa86d4f6d792a87069.bindTooltip(
+                `<div>
+                     4.0,Thai By Thai
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a3cde73ef1c4e83b5b5f26cf66e6634 = L.marker(
+                [49.1839142193, -122.8021354922],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_9a3cde73ef1c4e83b5b5f26cf66e6634.bindTooltip(
+                `<div>
+                     4.0,Browns Socialhouse Guildford
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60cae0d39444471d87cd4c389cb80f18 = L.marker(
+                [49.1768589, -122.868506],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_60cae0d39444471d87cd4c389cb80f18.bindTooltip(
+                `<div>
+                     4.0,Venetis Pizza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d18a6cc59cd495a96f7e99fc65bacfd = L.marker(
+                [49.175803, -122.801725],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_2d18a6cc59cd495a96f7e99fc65bacfd.bindTooltip(
+                `<div>
+                     4.0,Greek Islands Restaurants
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f70ff6b4f03a48f093dfd5855376f142 = L.marker(
+                [49.1860231, -122.800806],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_f70ff6b4f03a48f093dfd5855376f142.bindTooltip(
+                `<div>
+                     4.0,Palmyra Mediterranean Grill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5513b9672c44bbda6c9d70f0bf28332 = L.marker(
+                [49.1913499, -122.8083641],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_c5513b9672c44bbda6c9d70f0bf28332.bindTooltip(
+                `<div>
+                     4.0,Elvis Pizza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72e986aa70ea4fa69597634d2150a50b = L.marker(
+                [49.1333538, -122.8738159],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_72e986aa70ea4fa69597634d2150a50b.bindTooltip(
+                `<div>
+                     4.0,Gulberg Mediterranean & Persian Grill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_601463b4aa0c47119334f8f123aa650f = L.marker(
+                [49.1985378, -122.8493163],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_601463b4aa0c47119334f8f123aa650f.bindTooltip(
+                `<div>
+                     4.0,Curry Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc3fc35a24aa4872aa856746ce6d149e = L.marker(
+                [49.187147, -122.849565],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_fc3fc35a24aa4872aa856746ce6d149e.bindTooltip(
+                `<div>
+                     4.0,Go Grill Central City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85da6bc01bc34916922d1894187405c4 = L.marker(
+                [49.1883102821, -122.8004219524],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_85da6bc01bc34916922d1894187405c4.bindTooltip(
+                `<div>
+                     4.0,YiFang Taiwan Fruit Tea
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3d4c9d4d87f495da5bd78af3236324a = L.marker(
+                [49.1856917065, -122.8016178395],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_a3d4c9d4d87f495da5bd78af3236324a.bindTooltip(
+                `<div>
+                     4.0,Nando's Chicken
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92f324d8c325405aa1ae9be4ed0add60 = L.marker(
+                [49.1994852506, -122.813501358],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_92f324d8c325405aa1ae9be4ed0add60.bindTooltip(
+                `<div>
+                     4.0,Man Seng Kitchen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c01006b357194011b748313ae955419e = L.marker(
+                [49.1900941, -122.8005348],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_c01006b357194011b748313ae955419e.bindTooltip(
+                `<div>
+                     4.0,Mr Tonkatsu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24509d11fb25401db49a79d05230b10a = L.marker(
+                [49.1900941, -122.8005348],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_24509d11fb25401db49a79d05230b10a.bindTooltip(
+                `<div>
+                     4.0,Mr Tonkatsu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bb006d7dc1e4d9382e64a2040e39abf = L.marker(
+                [49.1839369, -122.8031062],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_4bb006d7dc1e4d9382e64a2040e39abf.bindTooltip(
+                `<div>
+                     4.0,Pho Guildford
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6175f87452974a1490afd8d1af9ba564 = L.marker(
+                [49.1333200178, -122.8898164909],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_6175f87452974a1490afd8d1af9ba564.bindTooltip(
+                `<div>
+                     4.0,One More Thai
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68ece14b625a4a5a98a0dbbb36a604a9 = L.marker(
+                [49.1926051, -122.8457319],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_68ece14b625a4a5a98a0dbbb36a604a9.bindTooltip(
+                `<div>
+                     4.0,Round-Up Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eede2ef58cf740568ee544d6382111a0 = L.marker(
+                [49.139607, -122.890066],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_eede2ef58cf740568ee544d6382111a0.bindTooltip(
+                `<div>
+                     4.0,Apna Chaat House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_329977769e09416bb79bec640c25d6cb = L.marker(
+                [49.15121, -122.8893631],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_329977769e09416bb79bec640c25d6cb.bindTooltip(
+                `<div>
+                     4.0,Nav Sweets & Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2cc55a5dd8774f4f9e6cf459e24d388d = L.marker(
+                [49.146898, -122.8669035],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_2cc55a5dd8774f4f9e6cf459e24d388d.bindTooltip(
+                `<div>
+                     4.0,Calgary Sweets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1165c3f9e6fa4e37aeb782aa7ca56d90 = L.marker(
+                [49.1660127, -122.89006],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_1165c3f9e6fa4e37aeb782aa7ca56d90.bindTooltip(
+                `<div>
+                     4.0,Taco Time
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_788d8a6df6dc45b59d7cd32019af7151 = L.marker(
+                [49.1912587, -122.84118],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_788d8a6df6dc45b59d7cd32019af7151.bindTooltip(
+                `<div>
+                     4.0,Afghan Bakery & Fast Food
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_334f5cd523b8474b88b9fb2cc92c3148 = L.marker(
+                [49.1912982627, -122.808646895],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_334f5cd523b8474b88b9fb2cc92c3148.bindTooltip(
+                `<div>
+                     4.0,Mek's Delight
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be802292c41a40f795ea8ee4c1fcec71 = L.marker(
+                [49.1911089, -122.8071237],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_be802292c41a40f795ea8ee4c1fcec71.bindTooltip(
+                `<div>
+                     4.0,Sabai Thai Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a75f9f481c554b0793da2b1469c82535 = L.marker(
+                [49.1990817, -122.8133497],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_a75f9f481c554b0793da2b1469c82535.bindTooltip(
+                `<div>
+                     4.0,Texx Big Burger
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2678f25d0f354362b4740ee640496a45 = L.marker(
+                [49.1902819, -122.8450144],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_2678f25d0f354362b4740ee640496a45.bindTooltip(
+                `<div>
+                     4.0,Sushi King George
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30bf16eac5e24150b4dd0c5064628b96 = L.marker(
+                [49.1391405, -122.8894699],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_30bf16eac5e24150b4dd0c5064628b96.bindTooltip(
+                `<div>
+                     4.0,Sapphire2bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04b1b3d610ae461bac8f9de0135a33b5 = L.marker(
+                [49.1391405, -122.8894699],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_04b1b3d610ae461bac8f9de0135a33b5.bindTooltip(
+                `<div>
+                     4.0,Sapphire2bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9d810ad637d425b8e3a48ad3e3d11c1 = L.marker(
+                [49.1391405, -122.8894699],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_c9d810ad637d425b8e3a48ad3e3d11c1.bindTooltip(
+                `<div>
+                     4.5,Sachdeva Sweets & Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_469feab8adfa4b90b7727daa67fe4a4b = L.marker(
+                [49.1391405, -122.8894699],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_469feab8adfa4b90b7727daa67fe4a4b.bindTooltip(
+                `<div>
+                     4.5,Sachdeva Sweets & Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e691b44c947486da89f7fc2936d5732 = L.marker(
+                [49.165126, -122.8897187],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_8e691b44c947486da89f7fc2936d5732.bindTooltip(
+                `<div>
+                     4.0,Krishnas' Dosa Grill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8777f0fda4c4ae78e4f9ac15a4a7d26 = L.marker(
+                [49.119977, -122.8898406],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_b8777f0fda4c4ae78e4f9ac15a4a7d26.bindTooltip(
+                `<div>
+                     4.0,My Greek Taverna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9d187df671f400a988cc387ab32fa21 = L.marker(
+                [49.1338858, -122.8518572],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_e9d187df671f400a988cc387ab32fa21.bindTooltip(
+                `<div>
+                     4.0,Main Choice Chinese Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_338a81206f6841468927a9a98bc786e9 = L.marker(
+                [49.1512971, -122.8785772],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_338a81206f6841468927a9a98bc786e9.bindTooltip(
+                `<div>
+                     4.0,Kairali Village Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e83d1019354449e6b5f66c55896022ad = L.marker(
+                [49.1864313, -122.8027777],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_e83d1019354449e6b5f66c55896022ad.bindTooltip(
+                `<div>
+                     4.0,Hanako Japanese Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2fc01824db244a7b5ad0e1b9699c50e = L.marker(
+                [49.1897070249, -122.8463932872],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_c2fc01824db244a7b5ad0e1b9699c50e.bindTooltip(
+                `<div>
+                     4.0,Grandt Kitchen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2243f852567b4490bf096da6a92c1c4c = L.marker(
+                [49.17647, -122.8891651],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 10.330250990752972}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_2243f852567b4490bf096da6a92c1c4c.bindTooltip(
+                `<div>
+                     4.0,Super Pho Vietnamese Restaurant Surrey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3859532d5304dd1bb8a4847f33b648c = L.marker(
+                [49.150180143, -122.8664377498],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_a3859532d5304dd1bb8a4847f33b648c.bindTooltip(
+                `<div>
+                     4.5,Navraj Sweets & Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b2e09908ca34ffcb4e8e5935d2aa27d = L.marker(
+                [49.1838367, -122.8025045],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_8b2e09908ca34ffcb4e8e5935d2aa27d.bindTooltip(
+                `<div>
+                     4.5,bb.q Chicken & Pub
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_add9aca7fce147f7b83313b0233b0943 = L.marker(
+                [49.1994143, -122.8455591],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_add9aca7fce147f7b83313b0233b0943.bindTooltip(
+                `<div>
+                     4.5,Sushi Shogun
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a28fee19d594474984cfdd104f5c7d0 = L.marker(
+                [49.183557, -122.8015222],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_9a28fee19d594474984cfdd104f5c7d0.bindTooltip(
+                `<div>
+                     4.5,Steve's Poké Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a256bc5e08304887af5e8783d90ee549 = L.marker(
+                [49.1902636, -122.8413866],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_a256bc5e08304887af5e8783d90ee549.bindTooltip(
+                `<div>
+                     4.5,Tomato Shack Pizza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dad7e7e5233f46f7ac092ee955c77fe5 = L.marker(
+                [49.1343815, -122.8867142],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_dad7e7e5233f46f7ac092ee955c77fe5.bindTooltip(
+                `<div>
+                     4.5,A&W
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e18c5595cfc4c2cae40ef23136daa71 = L.marker(
+                [49.1913672838, -122.8083230183],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_5e18c5595cfc4c2cae40ef23136daa71.bindTooltip(
+                `<div>
+                     4.5,Arirang Korean Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c48364de467348a9aeeb56e3b6ccd673 = L.marker(
+                [49.1363708, -122.8922328],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_c48364de467348a9aeeb56e3b6ccd673.bindTooltip(
+                `<div>
+                     4.5,GNJ Vegetarian Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d17efb423fb54b9f95eb803f1b6fd97e = L.marker(
+                [49.1865939262, -122.8019652472],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_d17efb423fb54b9f95eb803f1b6fd97e.bindTooltip(
+                `<div>
+                     4.5,Boom Beer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4eeea2295174c6497b9776bb89b41f4 = L.marker(
+                [49.1427672, -122.8672023],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_e4eeea2295174c6497b9776bb89b41f4.bindTooltip(
+                `<div>
+                     4.5,Java Hut Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d564fe9eeed4641ba0de216a63165a2 = L.marker(
+                [49.176057, -122.801236],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_1d564fe9eeed4641ba0de216a63165a2.bindTooltip(
+                `<div>
+                     4.5,Swagat Indian Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_119a8cc1975747baa47a2b91a1a7c93e = L.marker(
+                [49.1913778, -122.850766],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_119a8cc1975747baa47a2b91a1a7c93e.bindTooltip(
+                `<div>
+                     4.5,Big Star Sandwich
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3498e09076a4444498a28614e9c3347e = L.marker(
+                [49.199367, -122.8135658],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_3498e09076a4444498a28614e9c3347e.bindTooltip(
+                `<div>
+                     4.5,U R Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d541e6ca1714d0193ddcff57cde0151 = L.marker(
+                [49.1966872, -122.8457867],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_0d541e6ca1714d0193ddcff57cde0151.bindTooltip(
+                `<div>
+                     4.5,Sumerian Grill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5a8ed058a4a4747bca41700aa5b646e = L.marker(
+                [49.177327, -122.867661],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_a5a8ed058a4a4747bca41700aa5b646e.bindTooltip(
+                `<div>
+                     4.5,Pak Punjab Sweet & Samosas House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_afaae86c123a489fa883cd698f2b00ae = L.marker(
+                [49.162746, -122.866827],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_afaae86c123a489fa883cd698f2b00ae.bindTooltip(
+                `<div>
+                     4.5,The Samosa House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39e4c4b82ece4b4789e939a714d32f43 = L.marker(
+                [49.196348, -122.845649],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_39e4c4b82ece4b4789e939a714d32f43.bindTooltip(
+                `<div>
+                     4.5,The Taste of Africa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c59106d06ff4614b8443391c5a6cca2 = L.marker(
+                [49.167507, -122.801142],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_2c59106d06ff4614b8443391c5a6cca2.bindTooltip(
+                `<div>
+                     4.5,Cuatro Coffee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cf9b10765024e3dbe812da11d52c2c2 = L.marker(
+                [49.199449, -122.80928],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_9cf9b10765024e3dbe812da11d52c2c2.bindTooltip(
+                `<div>
+                     4.5,Scotts Landing Fish and Chips
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_44232d9eea9245419c7f5c5aaf3c6db5 = L.marker(
+                [49.1942749023, -122.8441390991],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_44232d9eea9245419c7f5c5aaf3c6db5.bindTooltip(
+                `<div>
+                     4.5,Ma Li Jang Sung  Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97d0ce343c454e3a8723a82149805011 = L.marker(
+                [49.191405, -122.840415],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_97d0ce343c454e3a8723a82149805011.bindTooltip(
+                `<div>
+                     4.5,An Pho
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b03e87c4f3354903891a4bdafe8f5dc6 = L.marker(
+                [49.139158, -122.88943],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_b03e87c4f3354903891a4bdafe8f5dc6.bindTooltip(
+                `<div>
+                     4.5,Curry and Kabab
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d83f20811cff488985a48ae383c468dc = L.marker(
+                [49.1902404, -122.8034613],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 3.9687762699651734}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_d83f20811cff488985a48ae383c468dc.bindTooltip(
+                `<div>
+                     4.5,Migoto Sushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1e7306d916141dbbc62dd1d7410beb2 = L.marker(
+                [49.1927423, -122.800336],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 0.5716344421760539}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_c1e7306d916141dbbc62dd1d7410beb2.bindTooltip(
+                `<div>
+                     5.0,Happy Jack's Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8403b8f92ac64f778bc523cb18e8dcdc = L.marker(
+                [49.1987463, -122.8134292],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 0.5716344421760539}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_8403b8f92ac64f778bc523cb18e8dcdc.bindTooltip(
+                `<div>
+                     5.0,Cabizerra Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc86b60fa3b44535af6024683ac54189 = L.marker(
+                [49.1887226116, -122.8607297181],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 0.5716344421760539}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_cc86b60fa3b44535af6024683ac54189.bindTooltip(
+                `<div>
+                     5.0,Viet Houng Asian Flavor Deli
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_263009b65e3f4112a13943ed60cd1a15 = L.marker(
+                [49.1782605, -122.8420778],
+                {"color": "darkgreen", "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.3, "radius": 0.5716344421760539}
+            ).addTo(feature_group_50419fd8ee97449b8d875c18dadca786);
+        
+    
+            marker_263009b65e3f4112a13943ed60cd1a15.bindTooltip(
+                `<div>
+                     5.0,Captain's Oven Pizza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_f07da9a49b4f4b7bbae998aeca7eaf85 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_584acade289a45ca9cc9842929dd06a7,
+                },
+                overlays :  {
+                    "Popular Restaurants in Surrey" : feature_group_50419fd8ee97449b8d875c18dadca786,
+                },
+            };
+            L.control.layers(
+                layer_control_f07da9a49b4f4b7bbae998aeca7eaf85.base_layers,
+                layer_control_f07da9a49b4f4b7bbae998aeca7eaf85.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_8f1684217c6d485e9579d8eaf97acf36);
+        
+</script>

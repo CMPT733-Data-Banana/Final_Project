@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aaa1481437614b32ba78249aa550e60c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_aaa1481437614b32ba78249aa550e60c" ></div>
+        
+</body>
+<script>    
+    
+            var map_aaa1481437614b32ba78249aa550e60c = L.map(
+                "map_aaa1481437614b32ba78249aa550e60c",
+                {
+                    center: [49.285006, -123.11805],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a902cd1fbffd42de899772f7bdac14d9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_aaa1481437614b32ba78249aa550e60c);
+        
+    
+            var feature_group_1948885ebebe48c9b42ed9318a1494f3 = L.featureGroup(
+                {}
+            ).addTo(map_aaa1481437614b32ba78249aa550e60c);
+        
+    
+            var marker_a61181d653c640feb292b497a4282de6 = L.marker(
+                [49.322767, -123.1074589],
+                {}
+            ).addTo(feature_group_1948885ebebe48c9b42ed9318a1494f3);
+        
+    
+            var icon_d509c4085c474cb1a16c630cac0d5b93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_a61181d653c640feb292b497a4282de6.setIcon(icon_d509c4085c474cb1a16c630cac0d5b93);
+        
+    
+            marker_a61181d653c640feb292b497a4282de6.bindTooltip(
+                `<div>
+                      Reviews:4.5	Name:Cactus Club Cafe Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e83cd045fb764412adb14758ca8da4ab = L.circle(
+                [49.322767, -123.1074589],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1948885ebebe48c9b42ed9318a1494f3);
+        
+    
+            var feature_group_104b6f0a447a44d08fea149f3c4147ec = L.featureGroup(
+                {}
+            ).addTo(map_aaa1481437614b32ba78249aa550e60c);
+        
+    
+            var marker_befd33df003641888df990a715a8c8b8 = L.marker(
+                [49.322767, -123.1074589],
+                {}
+            ).addTo(feature_group_104b6f0a447a44d08fea149f3c4147ec);
+        
+    
+            var icon_8672b8a99da1405295c0c05f15eef8f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_befd33df003641888df990a715a8c8b8.setIcon(icon_8672b8a99da1405295c0c05f15eef8f3);
+        
+    
+            marker_befd33df003641888df990a715a8c8b8.bindTooltip(
+                `<div>
+                      Reviews:4.5	Name:Cactus Club Cafe Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_94050490cc474e4191ae1ccbf13ed5b9 = L.circle(
+                [49.322767, -123.1074589],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_104b6f0a447a44d08fea149f3c4147ec);
+        
+    
+            var feature_group_74123726277f45a8a1b14c956a362b31 = L.featureGroup(
+                {}
+            ).addTo(map_aaa1481437614b32ba78249aa550e60c);
+        
+    
+            var marker_0e2d7ca7f9ed4680813f7685e0206abe = L.marker(
+                [49.322767, -123.1074589],
+                {}
+            ).addTo(feature_group_74123726277f45a8a1b14c956a362b31);
+        
+    
+            var icon_ac649f2c067d477a8f5d6f76e1548218 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_0e2d7ca7f9ed4680813f7685e0206abe.setIcon(icon_ac649f2c067d477a8f5d6f76e1548218);
+        
+    
+            marker_0e2d7ca7f9ed4680813f7685e0206abe.bindTooltip(
+                `<div>
+                      Reviews:4.5	Name:Cactus Club Cafe Wifi:free Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a9ca011e08c74cb8bccc7699b61c5573 = L.circle(
+                [49.322767, -123.1074589],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_74123726277f45a8a1b14c956a362b31);
+        
+    
+            var marker_4dfd73b66b8d4a9199ec9913bb9cc9cd = L.marker(
+                [49.3106956, -123.0803348],
+                {}
+            ).addTo(feature_group_74123726277f45a8a1b14c956a362b31);
+        
+    
+            var icon_99c10601b4234cae8fa12e53bf1df5ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_4dfd73b66b8d4a9199ec9913bb9cc9cd.setIcon(icon_99c10601b4234cae8fa12e53bf1df5ee);
+        
+    
+            marker_4dfd73b66b8d4a9199ec9913bb9cc9cd.bindTooltip(
+                `<div>
+                      Reviews:4.0	Name:Burgoo Bistro Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f37c36f8bce847e3ba978031716c8847 = L.marker(
+                [49.3109167, -123.0799962],
+                {}
+            ).addTo(feature_group_74123726277f45a8a1b14c956a362b31);
+        
+    
+            var icon_743b2914794f4cc19d33f974c41355d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_f37c36f8bce847e3ba978031716c8847.setIcon(icon_743b2914794f4cc19d33f974c41355d3);
+        
+    
+            marker_f37c36f8bce847e3ba978031716c8847.bindTooltip(
+                `<div>
+                      Reviews:4.0	Name:Raglans Wifi:no Price Range:2$ Delivery:No
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_fe5895a357894e72b5c50789142b8bba = L.featureGroup(
+                {}
+            ).addTo(map_aaa1481437614b32ba78249aa550e60c);
+        
+    
+            var marker_ef2d22c0fca2499c82c2afc47d0eddfb = L.marker(
+                [49.322767, -123.1074589],
+                {}
+            ).addTo(feature_group_fe5895a357894e72b5c50789142b8bba);
+        
+    
+            var icon_94f335fe1ee24087b59739c52db12aba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_ef2d22c0fca2499c82c2afc47d0eddfb.setIcon(icon_94f335fe1ee24087b59739c52db12aba);
+        
+    
+            marker_ef2d22c0fca2499c82c2afc47d0eddfb.bindTooltip(
+                `<div>
+                      Reviews:4.5	Name:Cactus Club Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_48f9d187c30d4cb8b5ae81c0ea066b78 = L.circle(
+                [49.322767, -123.1074589],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_fe5895a357894e72b5c50789142b8bba);
+        
+    
+            var marker_b57ae7868dbe47afa75807830633fef5 = L.marker(
+                [49.3106956, -123.0803348],
+                {}
+            ).addTo(feature_group_fe5895a357894e72b5c50789142b8bba);
+        
+    
+            var icon_8a7f6fb3b7314829b4821b91b2892837 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_b57ae7868dbe47afa75807830633fef5.setIcon(icon_8a7f6fb3b7314829b4821b91b2892837);
+        
+    
+            marker_b57ae7868dbe47afa75807830633fef5.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Burgoo Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0bdeb9a1614472b971275523453853b = L.marker(
+                [49.3109167, -123.0799962],
+                {}
+            ).addTo(feature_group_fe5895a357894e72b5c50789142b8bba);
+        
+    
+            var icon_1cbb34500a1d41f8b24bb28fe753387b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_d0bdeb9a1614472b971275523453853b.setIcon(icon_1cbb34500a1d41f8b24bb28fe753387b);
+        
+    
+            marker_d0bdeb9a1614472b971275523453853b.bindTooltip(
+                `<div>
+                      Reviews: 4.0	Name :Raglans
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_807863c5282842c8aaa6e8d6e0fe4b57 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_a902cd1fbffd42de899772f7bdac14d9,
+                },
+                overlays :  {
+                    "Cactus Club Cafe and its competiton in 1km radius" : feature_group_1948885ebebe48c9b42ed9318a1494f3,
+                    "Cactus Club Cafe and its competiton in 2km radius" : feature_group_104b6f0a447a44d08fea149f3c4147ec,
+                    "Cactus Club Cafe and its competiton in 3km radius" : feature_group_74123726277f45a8a1b14c956a362b31,
+                    "Cactus Club Cafe and its competiton in 5km radius" : feature_group_fe5895a357894e72b5c50789142b8bba,
+                },
+            };
+            L.control.layers(
+                layer_control_807863c5282842c8aaa6e8d6e0fe4b57.base_layers,
+                layer_control_807863c5282842c8aaa6e8d6e0fe4b57.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_aaa1481437614b32ba78249aa550e60c);
+        
+</script>

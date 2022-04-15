@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e1cbbf23e3974314a133785ed0981cdd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e1cbbf23e3974314a133785ed0981cdd" ></div>
+        
+</body>
+<script>    
+    
+            var map_e1cbbf23e3974314a133785ed0981cdd = L.map(
+                "map_e1cbbf23e3974314a133785ed0981cdd",
+                {
+                    center: [49.285006, -123.11805],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ed118cfa97614a8a84d29e9eb713bd94 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e1cbbf23e3974314a133785ed0981cdd);
+        
+    
+            var feature_group_8f61091f0c6d4bf4b34b5a4c9d42afc9 = L.featureGroup(
+                {}
+            ).addTo(map_e1cbbf23e3974314a133785ed0981cdd);
+        
+    
+            var marker_038dd06983864bfda3ea758e77160a6b = L.marker(
+                [49.2744339, -123.0691883],
+                {}
+            ).addTo(feature_group_8f61091f0c6d4bf4b34b5a4c9d42afc9);
+        
+    
+            var icon_08c5b00803394df3a6824a2f4b625ecc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_038dd06983864bfda3ea758e77160a6b.setIcon(icon_08c5b00803394df3a6824a2f4b625ecc);
+        
+    
+            marker_038dd06983864bfda3ea758e77160a6b.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Sula Indian Restaurant Wifi:free Price Range:2$ Delivery:True
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_66488a7fba6d4d4db6d37f80bb1a132b = L.circle(
+                [49.2744339, -123.0691883],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8f61091f0c6d4bf4b34b5a4c9d42afc9);
+        
+    
+            var feature_group_3326daf78b764ec3af20826438bb3cde = L.featureGroup(
+                {}
+            ).addTo(map_e1cbbf23e3974314a133785ed0981cdd);
+        
+    
+            var marker_13923893759744679a63d55fb0c15ae6 = L.marker(
+                [49.2744339, -123.0691883],
+                {}
+            ).addTo(feature_group_3326daf78b764ec3af20826438bb3cde);
+        
+    
+            var icon_53dddd1ad5bf44c19e216c5729831821 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_13923893759744679a63d55fb0c15ae6.setIcon(icon_53dddd1ad5bf44c19e216c5729831821);
+        
+    
+            marker_13923893759744679a63d55fb0c15ae6.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Sula Indian Restaurant Wifi:free Price Range:2$ Delivery:True
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9f11af1beecd4783aae2b125af568dd7 = L.circle(
+                [49.2744339, -123.0691883],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3326daf78b764ec3af20826438bb3cde);
+        
+    
+            var feature_group_63b0ba0985b84660af7c01e7b8c164e0 = L.featureGroup(
+                {}
+            ).addTo(map_e1cbbf23e3974314a133785ed0981cdd);
+        
+    
+            var marker_f4b79d849a754e7eac00e7150b4ed482 = L.marker(
+                [49.2744339, -123.0691883],
+                {}
+            ).addTo(feature_group_63b0ba0985b84660af7c01e7b8c164e0);
+        
+    
+            var icon_dd91af171b054b4e9f703955d37c185e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_f4b79d849a754e7eac00e7150b4ed482.setIcon(icon_dd91af171b054b4e9f703955d37c185e);
+        
+    
+            marker_f4b79d849a754e7eac00e7150b4ed482.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Sula Indian Restaurant Wifi:free Price Range:2$ Delivery:True
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_95435cf861ad4c4aa0064cb6884035ff = L.circle(
+                [49.2744339, -123.0691883],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_63b0ba0985b84660af7c01e7b8c164e0);
+        
+    
+            var marker_ab67e44e21f84a72a27c3f3bc565adb7 = L.marker(
+                [49.251, -123.07699],
+                {}
+            ).addTo(feature_group_63b0ba0985b84660af7c01e7b8c164e0);
+        
+    
+            var icon_89e9648c7cf84c5f83636de7c47807ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_ab67e44e21f84a72a27c3f3bc565adb7.setIcon(icon_89e9648c7cf84c5f83636de7c47807ff);
+        
+    
+            marker_ab67e44e21f84a72a27c3f3bc565adb7.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Dosa Factory Wifi:free Price Range:2$ Delivery:True
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2af576d78ba045ccaccf3f2c1a62ab96 = L.marker(
+                [49.250466, -123.0763251],
+                {}
+            ).addTo(feature_group_63b0ba0985b84660af7c01e7b8c164e0);
+        
+    
+            var icon_e3a9a930945c4c3a8017a35111899591 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_2af576d78ba045ccaccf3f2c1a62ab96.setIcon(icon_e3a9a930945c4c3a8017a35111899591);
+        
+    
+            marker_2af576d78ba045ccaccf3f2c1a62ab96.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:House of Dosas Wifi:free Price Range:2$ Delivery:True
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_de68495500db4f5fb08b9817f5a298de = L.featureGroup(
+                {}
+            ).addTo(map_e1cbbf23e3974314a133785ed0981cdd);
+        
+    
+            var marker_2c8a9a7f656441dc9585f80eec315fb5 = L.marker(
+                [49.2744339, -123.0691883],
+                {}
+            ).addTo(feature_group_de68495500db4f5fb08b9817f5a298de);
+        
+    
+            var icon_6f335c222a7d41a7b47c1b2dd80aa9d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_2c8a9a7f656441dc9585f80eec315fb5.setIcon(icon_6f335c222a7d41a7b47c1b2dd80aa9d6);
+        
+    
+            marker_2c8a9a7f656441dc9585f80eec315fb5.bindTooltip(
+                `<div>
+                      Reviews:4.0	 Name:Sula Indian Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c3c6c19dc2114effb84f7360b2e5c512 = L.circle(
+                [49.2744339, -123.0691883],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(feature_group_de68495500db4f5fb08b9817f5a298de);
+        
+    
+            var marker_43b537d31ee94aa88098dceba7043a69 = L.marker(
+                [49.251, -123.07699],
+                {}
+            ).addTo(feature_group_de68495500db4f5fb08b9817f5a298de);
+        
+    
+            var icon_2b55ce7f2e8543528ac25e2219239c98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_43b537d31ee94aa88098dceba7043a69.setIcon(icon_2b55ce7f2e8543528ac25e2219239c98);
+        
+    
+            marker_43b537d31ee94aa88098dceba7043a69.bindTooltip(
+                `<div>
+                     Reviews: 4.0	Name :Dosa Factory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e911d3c07a7f46349adfb471fd270538 = L.marker(
+                [49.250466, -123.0763251],
+                {}
+            ).addTo(feature_group_de68495500db4f5fb08b9817f5a298de);
+        
+    
+            var icon_b03cafbfae014c53865d8f27174242e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_e911d3c07a7f46349adfb471fd270538.setIcon(icon_b03cafbfae014c53865d8f27174242e8);
+        
+    
+            marker_e911d3c07a7f46349adfb471fd270538.bindTooltip(
+                `<div>
+                     Reviews: 4.0	Name :House of Dosas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fa7441a0f454f039fc6c5afd78fedb9 = L.marker(
+                [49.2457947, -123.0659378],
+                {}
+            ).addTo(feature_group_de68495500db4f5fb08b9817f5a298de);
+        
+    
+            var icon_80ee684f525943ef90d578f2a5144a80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_9fa7441a0f454f039fc6c5afd78fedb9.setIcon(icon_80ee684f525943ef90d578f2a5144a80);
+        
+    
+            marker_9fa7441a0f454f039fc6c5afd78fedb9.bindTooltip(
+                `<div>
+                     Reviews: 4.0	Name :Green Lettuce Indian Style Chinese Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa211ea6298b4dd6a380cb61340a5df4 = L.marker(
+                [49.2590241, -123.1153551],
+                {}
+            ).addTo(feature_group_de68495500db4f5fb08b9817f5a298de);
+        
+    
+            var icon_2aefce083e9b4cf98cd214c3d3883897 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_aa211ea6298b4dd6a380cb61340a5df4.setIcon(icon_2aefce083e9b4cf98cd214c3d3883897);
+        
+    
+            marker_aa211ea6298b4dd6a380cb61340a5df4.bindTooltip(
+                `<div>
+                     Reviews: 4.5	Name :Indian Roti Kitchen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7389365b8fdb428a809ac452b5bdcfde = L.marker(
+                [49.2840226346, -123.1218401661],
+                {}
+            ).addTo(feature_group_de68495500db4f5fb08b9817f5a298de);
+        
+    
+            var icon_9a46e3111bb349f7bf2927ccc4223d4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_7389365b8fdb428a809ac452b5bdcfde.setIcon(icon_9a46e3111bb349f7bf2927ccc4223d4f);
+        
+    
+            marker_7389365b8fdb428a809ac452b5bdcfde.bindTooltip(
+                `<div>
+                     Reviews: 4.0	Name :Salam Bombay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97745934d66a4bbd8a0f1be4a1ed8f6c = L.marker(
+                [49.2453529, -123.101476],
+                {}
+            ).addTo(feature_group_de68495500db4f5fb08b9817f5a298de);
+        
+    
+            var icon_eb5efc7c5f45470ba912669ab812dbb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_97745934d66a4bbd8a0f1be4a1ed8f6c.setIcon(icon_eb5efc7c5f45470ba912669ab812dbb2);
+        
+    
+            marker_97745934d66a4bbd8a0f1be4a1ed8f6c.bindTooltip(
+                `<div>
+                     Reviews: 4.0	Name :East is East
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6cddffb0240472e84aa5b08bc19f943 = L.marker(
+                [49.2544359, -123.0200503],
+                {}
+            ).addTo(feature_group_de68495500db4f5fb08b9817f5a298de);
+        
+    
+            var icon_d9e63ce870f24d50b9fd6829f6cf103d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_c6cddffb0240472e84aa5b08bc19f943.setIcon(icon_d9e63ce870f24d50b9fd6829f6cf103d);
+        
+    
+            marker_c6cddffb0240472e84aa5b08bc19f943.bindTooltip(
+                `<div>
+                     Reviews: 4.0	Name :Agra Tandoori Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_272d4b17d4894921bb8e40f42ae8ada6 = L.marker(
+                [49.284819, -123.125714],
+                {}
+            ).addTo(feature_group_de68495500db4f5fb08b9817f5a298de);
+        
+    
+            var icon_f80b14d51eb6469c95472c7cda9d8270 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_272d4b17d4894921bb8e40f42ae8ada6.setIcon(icon_f80b14d51eb6469c95472c7cda9d8270);
+        
+    
+            marker_272d4b17d4894921bb8e40f42ae8ada6.bindTooltip(
+                `<div>
+                     Reviews: 4.0	Name :Spicy 6 Fine Indian Cuisine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd037f25e2c84b0788f7b9952d79ba94 = L.marker(
+                [49.263478, -123.130517],
+                {}
+            ).addTo(feature_group_de68495500db4f5fb08b9817f5a298de);
+        
+    
+            var icon_685845db16a1489288458749753d294d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_dd037f25e2c84b0788f7b9952d79ba94.setIcon(icon_685845db16a1489288458749753d294d);
+        
+    
+            marker_dd037f25e2c84b0788f7b9952d79ba94.bindTooltip(
+                `<div>
+                     Reviews: 4.0	Name :Raga Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4ffcf6834ae4e17bebefc73ba2771e6 = L.marker(
+                [49.2362803934, -123.0417118816],
+                {}
+            ).addTo(feature_group_de68495500db4f5fb08b9817f5a298de);
+        
+    
+            var icon_f40496ba6a4c4091a02c9d2c424baf48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_b4ffcf6834ae4e17bebefc73ba2771e6.setIcon(icon_f40496ba6a4c4091a02c9d2c424baf48);
+        
+    
+            marker_b4ffcf6834ae4e17bebefc73ba2771e6.bindTooltip(
+                `<div>
+                     Reviews: 4.0	Name :Chili Pepper House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_706b23efc3fe439ba72448111fb9d9ef = L.marker(
+                [49.282163, -123.133735],
+                {}
+            ).addTo(feature_group_de68495500db4f5fb08b9817f5a298de);
+        
+    
+            var icon_7ea706315cc2446ab45ea94e520359bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_706b23efc3fe439ba72448111fb9d9ef.setIcon(icon_7ea706315cc2446ab45ea94e520359bc);
+        
+    
+            marker_706b23efc3fe439ba72448111fb9d9ef.bindTooltip(
+                `<div>
+                     Reviews: 4.0	Name :Davie Dosa Company
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_f87ff3489d6f472eb045b187b6841b7c = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_ed118cfa97614a8a84d29e9eb713bd94,
+                },
+                overlays :  {
+                    "SULA Restuarant and its competiton in 1km radius" : feature_group_8f61091f0c6d4bf4b34b5a4c9d42afc9,
+                    "SULA Restuarant and its competiton in 2km radius" : feature_group_3326daf78b764ec3af20826438bb3cde,
+                    "SULA Restuarant and its competiton in 3km radius" : feature_group_63b0ba0985b84660af7c01e7b8c164e0,
+                    "SULA Restuarant and its competiton in 5km radius" : feature_group_de68495500db4f5fb08b9817f5a298de,
+                },
+            };
+            L.control.layers(
+                layer_control_f87ff3489d6f472eb045b187b6841b7c.base_layers,
+                layer_control_f87ff3489d6f472eb045b187b6841b7c.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_e1cbbf23e3974314a133785ed0981cdd);
+        
+</script>

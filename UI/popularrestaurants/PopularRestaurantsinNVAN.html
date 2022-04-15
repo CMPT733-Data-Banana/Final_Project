@@ -1,0 +1,1847 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ae0054e7b60d444fbed60a20ebd389d8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ae0054e7b60d444fbed60a20ebd389d8" ></div>
+        
+</body>
+<script>    
+    
+            var map_ae0054e7b60d444fbed60a20ebd389d8 = L.map(
+                "map_ae0054e7b60d444fbed60a20ebd389d8",
+                {
+                    center: [49.285006, -123.11805],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_42ac509e8e034bdeaf3c17c9062608d8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ae0054e7b60d444fbed60a20ebd389d8);
+        
+    
+            var feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1 = L.featureGroup(
+                {}
+            ).addTo(map_ae0054e7b60d444fbed60a20ebd389d8);
+        
+    
+            var marker_8c638fac4f8543c5a307a3593e5e22e7 = L.marker(
+                [49.3099698, -123.0786029],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_8c638fac4f8543c5a307a3593e5e22e7.bindTooltip(
+                `<div>
+                     4.5,JOEY Shipyards
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6415b9d12dd7496cb00e992bcf9b1f0e = L.marker(
+                [49.3099698, -123.0786029],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_6415b9d12dd7496cb00e992bcf9b1f0e.bindTooltip(
+                `<div>
+                     4.5,JOEY Shipyards
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3795197cbb147548c233f3a964e6796 = L.marker(
+                [49.3374616, -123.102415],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_d3795197cbb147548c233f3a964e6796.bindTooltip(
+                `<div>
+                     4.0,La Galleria Fine Foods
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b403738e05064bf28274baa4a53f022a = L.marker(
+                [49.326842566, -122.9510566295],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_b403738e05064bf28274baa4a53f022a.bindTooltip(
+                `<div>
+                     4.0,Bluhouse Market & Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19c76cdd7f9a4d368ab0518a4563304e = L.marker(
+                [49.3109141702, -123.0805426679],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_19c76cdd7f9a4d368ab0518a4563304e.bindTooltip(
+                `<div>
+                     4.0,Nemesis Dope Bakehouse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d5d415c456c40a7bef52dd9cc9c3768 = L.marker(
+                [49.3363456854, -123.0376349062],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_9d5d415c456c40a7bef52dd9cc9c3768.bindTooltip(
+                `<div>
+                     4.0,Tommy's Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61244625b56c4ec59add433d4166248e = L.marker(
+                [49.3109167, -123.0799962],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_61244625b56c4ec59add433d4166248e.bindTooltip(
+                `<div>
+                     4.0,Raglans
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3988e34bc5eb4a3397046430da13b7b1 = L.marker(
+                [49.336992, -123.039458],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_3988e34bc5eb4a3397046430da13b7b1.bindTooltip(
+                `<div>
+                     4.0,Mr. Sushi Lynn Valley
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18669f6d91a340dea045fbddcfcd5673 = L.marker(
+                [49.343121698, -123.1139232921],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_18669f6d91a340dea045fbddcfcd5673.bindTooltip(
+                `<div>
+                     4.0,The Cliff House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8774b2d8d2a14583b3487d70ed375110 = L.marker(
+                [49.3427831728, -123.1143312202],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_8774b2d8d2a14583b3487d70ed375110.bindTooltip(
+                `<div>
+                     4.0,The Bridge House Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7181d05f0c484da7b34dcdfd46126f06 = L.marker(
+                [49.3217974664, -123.101176981],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_7181d05f0c484da7b34dcdfd46126f06.bindTooltip(
+                `<div>
+                     4.0,Pine Sushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_271320ab5f4f4a468126726224965311 = L.marker(
+                [49.3218005, -123.07262],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_271320ab5f4f4a468126726224965311.bindTooltip(
+                `<div>
+                     4.0,Mehman Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12094ab4a9fd498eaad1554a3a669e0d = L.marker(
+                [49.3229212636, -123.0992513495],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_12094ab4a9fd498eaad1554a3a669e0d.bindTooltip(
+                `<div>
+                     4.0,Crispy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99b9b36a73e842f4aaa39dd7b7b7327e = L.marker(
+                [49.3161864895, -122.9680723697],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_99b9b36a73e842f4aaa39dd7b7b7327e.bindTooltip(
+                `<div>
+                     4.0,Djjs Wedge Pizza & Pasta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1707bab8802449781d54641e639784a = L.marker(
+                [49.3121695, -123.078662],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_d1707bab8802449781d54641e639784a.bindTooltip(
+                `<div>
+                     4.0,Mr. Sushi Lonsdale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7c8c3f4b2354afd96bff627377f3101 = L.marker(
+                [49.3123573, -123.0836622],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_f7c8c3f4b2354afd96bff627377f3101.bindTooltip(
+                `<div>
+                     4.0,Goodlad
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cec2080294324732a7505686d5637da9 = L.marker(
+                [49.3365881, -123.04006],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_cec2080294324732a7505686d5637da9.bindTooltip(
+                `<div>
+                     4.0,Yama Sushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bda594285eb8467da282e00bac124c48 = L.marker(
+                [49.3301383, -123.1045718],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_bda594285eb8467da282e00bac124c48.bindTooltip(
+                `<div>
+                     4.0,Corner Stone
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfd76efe4cbc4e8fabfd229843136a02 = L.marker(
+                [49.3147999994, -123.1012425998],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_cfd76efe4cbc4e8fabfd229843136a02.bindTooltip(
+                `<div>
+                     4.0,Morning Star Bubble Tea
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2163aa3b42a94435bd3a8c40b4f311c7 = L.marker(
+                [49.3176359, -122.9697966],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_2163aa3b42a94435bd3a8c40b4f311c7.bindTooltip(
+                `<div>
+                     4.0,The Local Lift Juice Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61e4dd6a5086440da01454067331a2d5 = L.marker(
+                [49.3431188, -123.1139147],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_61e4dd6a5086440da01454067331a2d5.bindTooltip(
+                `<div>
+                     4.0,Loggers' Grill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a0b16509099433f95fd045711b1ae82 = L.marker(
+                [49.3107068, -123.0817305],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_1a0b16509099433f95fd045711b1ae82.bindTooltip(
+                `<div>
+                     4.0,The Fried Chicken Works
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_571a822698564aa5a6a7c87512bb790d = L.marker(
+                [49.3107068, -123.0817305],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_571a822698564aa5a6a7c87512bb790d.bindTooltip(
+                `<div>
+                     4.0,The Fried Chicken Works
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f3fba03cd004f43bffc8a8106ee7cee = L.marker(
+                [49.3107068, -123.0817305],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_4f3fba03cd004f43bffc8a8106ee7cee.bindTooltip(
+                `<div>
+                     4.0,The Fried Chicken Works
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2615423473d844c0af6a1fdca4d3026c = L.marker(
+                [49.3107068, -123.0817305],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_2615423473d844c0af6a1fdca4d3026c.bindTooltip(
+                `<div>
+                     4.5,Soup Meister
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4bc202a70fd4b53bf12fc85f2d33a7b = L.marker(
+                [49.3107068, -123.0817305],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_d4bc202a70fd4b53bf12fc85f2d33a7b.bindTooltip(
+                `<div>
+                     4.5,Soup Meister
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38f1a2eb520b4700b3e3f7c14ea43443 = L.marker(
+                [49.3107068, -123.0817305],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_38f1a2eb520b4700b3e3f7c14ea43443.bindTooltip(
+                `<div>
+                     4.5,Soup Meister
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5ee0dc2e6c64d738a5294ed83d6ec3b = L.marker(
+                [49.3239258742, -123.1123654067],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_c5ee0dc2e6c64d738a5294ed83d6ec3b.bindTooltip(
+                `<div>
+                     4.0,Lion Hot Pot
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd89423b0bb344ca8b46957854b588d9 = L.marker(
+                [49.3141857831, -123.0783246614],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_dd89423b0bb344ca8b46957854b588d9.bindTooltip(
+                `<div>
+                     4.0,Mythos Taverna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef5e6f0f4e024c8889c8bc4bba7c6a6e = L.marker(
+                [49.3121782, -123.0772003],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_ef5e6f0f4e024c8889c8bc4bba7c6a6e.bindTooltip(
+                `<div>
+                     4.0,Farina a Legna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6d3160818594b87bac5c4458f7ca0a1 = L.marker(
+                [49.3121782, -123.0772003],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_a6d3160818594b87bac5c4458f7ca0a1.bindTooltip(
+                `<div>
+                     4.0,Farina a Legna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_adb4f8a330344f6ba8085fb18efba912 = L.marker(
+                [49.3220876, -123.0731133],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_adb4f8a330344f6ba8085fb18efba912.bindTooltip(
+                `<div>
+                     4.0,Persian Gulf
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1be55d585bf944fd9b41fd2fc9240cdb = L.marker(
+                [49.312055, -123.081012],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_1be55d585bf944fd9b41fd2fc9240cdb.bindTooltip(
+                `<div>
+                     4.0,Café By Tao
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c85e091d5dcc40cd9b7fe80233a1324c = L.marker(
+                [49.3271549, -123.0724659],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_c85e091d5dcc40cd9b7fe80233a1324c.bindTooltip(
+                `<div>
+                     4.0,Sushi Umi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a8d767f1dd54f66a46777c3761f76e2 = L.marker(
+                [49.3270437, -122.9515709],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_3a8d767f1dd54f66a46777c3761f76e2.bindTooltip(
+                `<div>
+                     4.0,Cafe Orso
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94ed59c45fc546d0b9eb6547685372b4 = L.marker(
+                [49.322626, -123.099202],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_94ed59c45fc546d0b9eb6547685372b4.bindTooltip(
+                `<div>
+                     4.0,Sweet Lime Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58fe88b74c594e3997abe4f8c311b2cb = L.marker(
+                [49.3097556117, -123.0822865366],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_58fe88b74c594e3997abe4f8c311b2cb.bindTooltip(
+                `<div>
+                     4.0,All Day Café
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b4ac3cdcc754fbb96c1132d3241e278 = L.marker(
+                [49.3070211, -123.0173342],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_6b4ac3cdcc754fbb96c1132d3241e278.bindTooltip(
+                `<div>
+                     4.0,Belmondo Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90cc9197a90e49c2ae62503dd23a6caf = L.marker(
+                [49.3365995, -123.0379557],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_90cc9197a90e49c2ae62503dd23a6caf.bindTooltip(
+                `<div>
+                     4.0,Waves Coffee House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_675a46ba84554813a72a71ee5cbe78a8 = L.marker(
+                [49.3206789, -123.0723196],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_675a46ba84554813a72a71ee5cbe78a8.bindTooltip(
+                `<div>
+                     4.0,Ayoub's Dried Fruits and Nuts
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b9d06b0334e4fb5a702d17c1b55e50a = L.marker(
+                [49.3108061, -123.0797624],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_6b9d06b0334e4fb5a702d17c1b55e50a.bindTooltip(
+                `<div>
+                     4.0,Anatoli Souvlaki
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_804ec8267bd04c9a9a3beb8bb1c38002 = L.marker(
+                [49.3166374, -122.9692883],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_804ec8267bd04c9a9a3beb8bb1c38002.bindTooltip(
+                `<div>
+                     4.0,InGrain Pastificio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c918e18a5221452f941b7110a8e750e0 = L.marker(
+                [49.3556004, -123.1059532],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_c918e18a5221452f941b7110a8e750e0.bindTooltip(
+                `<div>
+                     4.0,DDDN Pizza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6b5ed7e9fab4108836ddd87769eeaba = L.marker(
+                [49.3067998, -122.9536282],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_a6b5ed7e9fab4108836ddd87769eeaba.bindTooltip(
+                `<div>
+                     4.0,Nektar's Pizza & Greek Food
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0dd3bbb1c6d14931bc62743e0aecf45c = L.marker(
+                [49.3077526, -123.0713637],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_0dd3bbb1c6d14931bc62743e0aecf45c.bindTooltip(
+                `<div>
+                     4.0,House of Funk Brewing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9b8b88804af4f0683da9257f696f50f = L.marker(
+                [49.3160234, -122.9689644],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_d9b8b88804af4f0683da9257f696f50f.bindTooltip(
+                `<div>
+                     4.0,Momiji Japanese Cuisine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5edaa15c00ff433aa0b9803b912094f7 = L.marker(
+                [49.3268742454, -122.9493626042],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_5edaa15c00ff433aa0b9803b912094f7.bindTooltip(
+                `<div>
+                     4.0,Arms Reach Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6fbaf9200a34fc5af6f768390ac2edb = L.marker(
+                [49.3192768351, -123.1021721402],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_b6fbaf9200a34fc5af6f768390ac2edb.bindTooltip(
+                `<div>
+                     4.0,Two Daughters Bakeshop
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4cc96cc6d894e85a6ead9fa824a154e = L.marker(
+                [49.3113387, -123.0747985],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_d4cc96cc6d894e85a6ead9fa824a154e.bindTooltip(
+                `<div>
+                     4.0,Sushi Mania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_819ffaa524c74f88af2ac974db4537c4 = L.marker(
+                [49.323081, -123.0720793],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_819ffaa524c74f88af2ac974db4537c4.bindTooltip(
+                `<div>
+                     4.0,Jordan Sushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39436b9ed67742f3b9c8db2948dbbc45 = L.marker(
+                [49.3059818772, -123.0158274754],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_39436b9ed67742f3b9c8db2948dbbc45.bindTooltip(
+                `<div>
+                     4.0,Stong's Markets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_281ce9e8168e4505adade304f4cac080 = L.marker(
+                [49.3117351, -123.0790894],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_281ce9e8168e4505adade304f4cac080.bindTooltip(
+                `<div>
+                     4.0,Fishworks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_570e6dfc99d74c658b13a5388910dcbf = L.marker(
+                [49.3118265, -123.0766078],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_570e6dfc99d74c658b13a5388910dcbf.bindTooltip(
+                `<div>
+                     4.0,South Castle Korean Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_110bff31499a4927baa6efe6406dde2d = L.marker(
+                [49.3125469, -123.0821075],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_110bff31499a4927baa6efe6406dde2d.bindTooltip(
+                `<div>
+                     4.0,Freshii
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c5d52eaec1e4c98af66f5719d54bca1 = L.marker(
+                [49.324014129, -123.0725296],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_6c5d52eaec1e4c98af66f5719d54bca1.bindTooltip(
+                `<div>
+                     4.0,Rosemary Rocksalt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_069a0c6361164fb780a3d76e9569787c = L.marker(
+                [49.3126325, -123.057373],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_069a0c6361164fb780a3d76e9569787c.bindTooltip(
+                `<div>
+                     4.0,Mount Royal Bagel Factory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d20ab7e3a2341f182895f0fb5d236f6 = L.marker(
+                [49.3238579, -123.0725823],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_3d20ab7e3a2341f182895f0fb5d236f6.bindTooltip(
+                `<div>
+                     4.0,Sushi Station Japanese Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe9fdfa484834ebaba67bc68ce8cf287 = L.marker(
+                [49.3214868, -123.0721325],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_fe9fdfa484834ebaba67bc68ce8cf287.bindTooltip(
+                `<div>
+                     4.0,Hachi Hana Japanese Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_865a7de9c49f423581eaec7834eaf4b3 = L.marker(
+                [49.3362109031, -123.0387553999],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_865a7de9c49f423581eaec7834eaf4b3.bindTooltip(
+                `<div>
+                     4.0,Delany's Coffee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38f9cb0d4ea14039b39013238f9faa02 = L.marker(
+                [49.3329444, -123.0896282],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_38f9cb0d4ea14039b39013238f9faa02.bindTooltip(
+                `<div>
+                     4.0,Hamaei Japanese Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c35033d548d43e3b6776d652bce4b40 = L.marker(
+                [49.3095258235, -123.0731797591],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_9c35033d548d43e3b6776d652bce4b40.bindTooltip(
+                `<div>
+                     4.0,Finch & Barley
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51fc4223189945b892a386929722b451 = L.marker(
+                [49.3100385388, -123.0782501698],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_51fc4223189945b892a386929722b451.bindTooltip(
+                `<div>
+                     4.0,Larry's Market
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d48985fb12394f4f8597d33d86fa2964 = L.marker(
+                [49.3121372, -123.0814874],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_d48985fb12394f4f8597d33d86fa2964.bindTooltip(
+                `<div>
+                     4.0,Java Hut Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ddc8c271c2714940b8589c94b5d0ce80 = L.marker(
+                [49.3122714, -123.0790169],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_ddc8c271c2714940b8589c94b5d0ce80.bindTooltip(
+                `<div>
+                     4.0,Buddha-Full
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b1e09cfb6084fce9e238b2e4e8770c3 = L.marker(
+                [49.3121844712, -123.0569145083],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_0b1e09cfb6084fce9e238b2e4e8770c3.bindTooltip(
+                `<div>
+                     4.0,Blvd Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60407b1b05cb4fcda3a05a73822ded4d = L.marker(
+                [49.3106956, -123.0803348],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_60407b1b05cb4fcda3a05a73822ded4d.bindTooltip(
+                `<div>
+                     4.0,Burgoo Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77f468d9fa3f418687fe8d3d728ee58e = L.marker(
+                [49.3107128, -123.0817305],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_77f468d9fa3f418687fe8d3d728ee58e.bindTooltip(
+                `<div>
+                     4.0,Dex Gourmet Burger Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_335400f3ac354d499894c78a9bea0766 = L.marker(
+                [49.3107128, -123.0817305],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_335400f3ac354d499894c78a9bea0766.bindTooltip(
+                `<div>
+                     4.0,Dex Gourmet Burger Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a7118558ee04f8fa812f02a9e33eb06 = L.marker(
+                [49.3107128, -123.0817305],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_9a7118558ee04f8fa812f02a9e33eb06.bindTooltip(
+                `<div>
+                     4.0,Dex Gourmet Burger Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39459a0aa5b840a2aef047e2132c278a = L.marker(
+                [49.3107128, -123.0817305],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_39459a0aa5b840a2aef047e2132c278a.bindTooltip(
+                `<div>
+                     4.0,Dex Gourmet Burger Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1615f1790d3f40fe817137453b31a041 = L.marker(
+                [49.3107128, -123.0817305],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_1615f1790d3f40fe817137453b31a041.bindTooltip(
+                `<div>
+                     4.5,Nikko Teriyaki
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0958dffd989e41a296ba0256a5564942 = L.marker(
+                [49.3107128, -123.0817305],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_0958dffd989e41a296ba0256a5564942.bindTooltip(
+                `<div>
+                     4.5,Nikko Teriyaki
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa47f532ac754748847b8c46e5aadcc6 = L.marker(
+                [49.3107128, -123.0817305],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_aa47f532ac754748847b8c46e5aadcc6.bindTooltip(
+                `<div>
+                     4.5,Nikko Teriyaki
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67acffdb950546ad88c1f56b32913d38 = L.marker(
+                [49.3107128, -123.0817305],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_67acffdb950546ad88c1f56b32913d38.bindTooltip(
+                `<div>
+                     4.5,Nikko Teriyaki
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebbe7fbcac714681b0f0c0cfa4b8ccca = L.marker(
+                [49.3099559716, -123.0821187925],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_ebbe7fbcac714681b0f0c0cfa4b8ccca.bindTooltip(
+                `<div>
+                     4.0,Montgomery's Fish & Chips
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_481c7a8901d94c599f1c16ef536bfd6f = L.marker(
+                [49.3149126, -123.0968408],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_481c7a8901d94c599f1c16ef536bfd6f.bindTooltip(
+                `<div>
+                     4.0,Louis Gervais Fine Foods & Catering
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_628e10bf557f4eca9246923d98ef5a1c = L.marker(
+                [49.3235761, -123.1019458],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_628e10bf557f4eca9246923d98ef5a1c.bindTooltip(
+                `<div>
+                     4.0,Smoke and Bones
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_497ad6e04e754cbe8ac12d579725fbdb = L.marker(
+                [49.30998, -123.0784635447],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_497ad6e04e754cbe8ac12d579725fbdb.bindTooltip(
+                `<div>
+                     4.0,Seaside Provisions
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ef9db3c017f403fb0d2d6afd1e03b7a = L.marker(
+                [49.3105977, -123.0803629],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_4ef9db3c017f403fb0d2d6afd1e03b7a.bindTooltip(
+                `<div>
+                     4.0,Gusto Di Quattro Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69bf5fcf6d164ef6b46222cb7af1455e = L.marker(
+                [49.3216487, -123.0721193],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_69bf5fcf6d164ef6b46222cb7af1455e.bindTooltip(
+                `<div>
+                     4.0,Tamarind Hill Malaysian Cuisine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a998a5b77f6407e96cef6a6d4b3ce03 = L.marker(
+                [49.3220662, -123.0716201],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_9a998a5b77f6407e96cef6a6d4b3ce03.bindTooltip(
+                `<div>
+                     4.0,Palki Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f9a3d0fa7904e62b9fe141c54724542 = L.marker(
+                [49.3116786, -123.0791056],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_0f9a3d0fa7904e62b9fe141c54724542.bindTooltip(
+                `<div>
+                     4.0,Jägerhof Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ffb392438cd4b0ab261f3aeb01a226f = L.marker(
+                [49.3245325372, -123.1075779951],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_3ffb392438cd4b0ab261f3aeb01a226f.bindTooltip(
+                `<div>
+                     4.0,C-Lovers Fish & Chips
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ed1d186f97e490d8dd2de5777977f15 = L.marker(
+                [49.324137, -123.1119572],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 13.701185390216018}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_6ed1d186f97e490d8dd2de5777977f15.bindTooltip(
+                `<div>
+                     4.0,Kypriaki Mediterranean Grill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25a9caa487f54a5f9b198d6229d768a6 = L.marker(
+                [49.3106614, -123.0808712],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_25a9caa487f54a5f9b198d6229d768a6.bindTooltip(
+                `<div>
+                     4.5,Akebono Japanese Food & Sushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db9ec743d5b749b8be95276bdf29184c = L.marker(
+                [49.3106614, -123.0808712],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_db9ec743d5b749b8be95276bdf29184c.bindTooltip(
+                `<div>
+                     4.5,Akebono Japanese Food & Sushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0632058c435a4462a3cf5079eba2e548 = L.marker(
+                [49.3137969019, -123.0783443525],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_0632058c435a4462a3cf5079eba2e548.bindTooltip(
+                `<div>
+                     4.5,Minemura Sushi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_045d8f55d24445a1843a9e818aba37ef = L.marker(
+                [49.3279866, -123.0724282],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_045d8f55d24445a1843a9e818aba37ef.bindTooltip(
+                `<div>
+                     4.5,Indian Fusion Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1905fe6f694e4b8d83631f4e8f7ca456 = L.marker(
+                [49.322767, -123.1074589],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_1905fe6f694e4b8d83631f4e8f7ca456.bindTooltip(
+                `<div>
+                     4.5,Cactus Club Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5143d19bb1cc4555af3b8fab57d548c7 = L.marker(
+                [49.33477, -123.03974],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_5143d19bb1cc4555af3b8fab57d548c7.bindTooltip(
+                `<div>
+                     4.5,Sushi 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_caaf6048055346afbfafe111bd0eab4d = L.marker(
+                [49.312307, -123.0778272],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_caaf6048055346afbfafe111bd0eab4d.bindTooltip(
+                `<div>
+                     4.5,JL Sushi & Kitchen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b15923f764c5411fb7e50b8eb39b43dd = L.marker(
+                [49.3129797, -123.0772269],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_b15923f764c5411fb7e50b8eb39b43dd.bindTooltip(
+                `<div>
+                     4.5,Winston
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dee38f9c4ec248df845a65fc0e014add = L.marker(
+                [49.3367329008, -123.1009995398],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_dee38f9c4ec248df845a65fc0e014add.bindTooltip(
+                `<div>
+                     4.5,BjornBar Bakery
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c2efce548bb4cd2be09c3654179dbe8 = L.marker(
+                [49.3127851, -123.0573433],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_7c2efce548bb4cd2be09c3654179dbe8.bindTooltip(
+                `<div>
+                     4.5,Sansho Sushi & Japanese Dining
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f89f1b0b2f1543fdb1fb059f4755608a = L.marker(
+                [49.317547, -123.110836],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_f89f1b0b2f1543fdb1fb059f4755608a.bindTooltip(
+                `<div>
+                     4.5,La Taqueria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6071a10275984c96864ed79f590c253d = L.marker(
+                [49.3106100217, -123.0793726444],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_6071a10275984c96864ed79f590c253d.bindTooltip(
+                `<div>
+                     4.5,Pinnacle Hotel at the Pier
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b0fc642e4624670b2ff1c405fbb24aa = L.marker(
+                [49.324876, -123.109655],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_2b0fc642e4624670b2ff1c405fbb24aa.bindTooltip(
+                `<div>
+                     4.5,One More Szechuan Chinese Cuisine​
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf69f13f65284708918603cd526f604e = L.marker(
+                [49.3219292, -123.1045816],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_bf69f13f65284708918603cd526f604e.bindTooltip(
+                `<div>
+                     4.5,Daisy Sandwiches & Such
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0733d939d2504d16830919da2532a536 = L.marker(
+                [49.3366907, -123.0394822],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_0733d939d2504d16830919da2532a536.bindTooltip(
+                `<div>
+                     4.5,Kourosh Bakery
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c75373e34ad14c9fb5e41651b59f6f3c = L.marker(
+                [49.3122214, -123.0569888],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_c75373e34ad14c9fb5e41651b59f6f3c.bindTooltip(
+                `<div>
+                     4.5,S'wich Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3c67180f6164d1dbcb4371efdb3129a = L.marker(
+                [49.312057, -123.0795482],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_e3c67180f6164d1dbcb4371efdb3129a.bindTooltip(
+                `<div>
+                     4.5,The Green Moustache Organic Café
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19e84fc4084f4cf49d54a5ad111f779a = L.marker(
+                [49.3101507811, -123.0822766775],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_19e84fc4084f4cf49d54a5ad111f779a.bindTooltip(
+                `<div>
+                     4.5,Sharky's Chophouse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ed3fa55c2db44c89eeed9a924694df3 = L.marker(
+                [49.3191196, -123.0730036],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_4ed3fa55c2db44c89eeed9a924694df3.bindTooltip(
+                `<div>
+                     4.5,Mr Pan Pizza & Indian Curry House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f5ce6ad419d48c182adf17f47372211 = L.marker(
+                [49.3231065042, -123.1019105084],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_5f5ce6ad419d48c182adf17f47372211.bindTooltip(
+                `<div>
+                     4.5,Orto Artisan Pasta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_737ecc356fd44f299caa66278365be9d = L.marker(
+                [49.3191106, -123.0727015],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_737ecc356fd44f299caa66278365be9d.bindTooltip(
+                `<div>
+                     4.5,Ga Hyang Ru
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad221c9089984703ad546bcf01da7398 = L.marker(
+                [49.3120844, -123.0770783],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_ad221c9089984703ad546bcf01da7398.bindTooltip(
+                `<div>
+                     4.5,Maru Korean Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_358b27f2355645e59abc1deaea4ce01b = L.marker(
+                [49.307353, -122.953891],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_358b27f2355645e59abc1deaea4ce01b.bindTooltip(
+                `<div>
+                     4.5,Scratch Kitchen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89af1651a5084bf0ac5c2c0ec13e06d3 = L.marker(
+                [49.3266961, -123.0725536],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_89af1651a5084bf0ac5c2c0ec13e06d3.bindTooltip(
+                `<div>
+                     4.5,Pawans Indian Kitchen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b030f0739d274511a545bb1ca3747021 = L.marker(
+                [49.321964, -123.1076348],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_b030f0739d274511a545bb1ca3747021.bindTooltip(
+                `<div>
+                     4.5,Douce Diner
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cec16e070194c299e42d0dc05e94b90 = L.marker(
+                [49.3239738, -123.0727077],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_6cec16e070194c299e42d0dc05e94b90.bindTooltip(
+                `<div>
+                     4.5,Daniel le Chocolat Belge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7540d95c4c74613a59b4aaadb9fa9a9 = L.marker(
+                [49.3106819394, -123.0760799948],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_a7540d95c4c74613a59b4aaadb9fa9a9.bindTooltip(
+                `<div>
+                     4.5,The Gull Bar + Kitchen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_955fcea03a6c4852958448efda0ebbae = L.marker(
+                [49.3103418799, -123.0820697558],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_955fcea03a6c4852958448efda0ebbae.bindTooltip(
+                `<div>
+                     4.5,Bowen Island Pizza Company
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13fea01392a24fef8e1aa71c2d572758 = L.marker(
+                [49.3237289771, -123.0726154745],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_13fea01392a24fef8e1aa71c2d572758.bindTooltip(
+                `<div>
+                     4.5,Rice & Noodle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b6edca0f3454e65b8628e48c09caafb = L.marker(
+                [49.307389, -123.03217],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_0b6edca0f3454e65b8628e48c09caafb.bindTooltip(
+                `<div>
+                     4.5,Tour De Feast
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_772660f0f683439799a56b8192df5175 = L.marker(
+                [49.3266823, -122.9496988],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_772660f0f683439799a56b8192df5175.bindTooltip(
+                `<div>
+                     4.5,Covert Neighbourhood Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b40218605dd544e5bc264d909a88cbaa = L.marker(
+                [49.3201067, -123.107581],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_b40218605dd544e5bc264d909a88cbaa.bindTooltip(
+                `<div>
+                     4.5,Workshop Vegetarian Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62632c2329274db1b01b572a8b624eec = L.marker(
+                [49.3212052, -123.0716537],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_62632c2329274db1b01b572a8b624eec.bindTooltip(
+                `<div>
+                     4.5,Echo Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7590a026959b4b0eb644e18098e8761c = L.marker(
+                [49.3277104, -123.0721953],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 5.263854624225283}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_7590a026959b4b0eb644e18098e8761c.bindTooltip(
+                `<div>
+                     4.5,Puccini's Deli
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_44ae6791b3ad42529e0d3aa7d25f80de = L.marker(
+                [49.3210518, -123.0977926],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 0.7581683615139299}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_44ae6791b3ad42529e0d3aa7d25f80de.bindTooltip(
+                `<div>
+                     5.0,Vomero Coffee House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e750d6b3aac6463e841a992b09e6874c = L.marker(
+                [49.3210518, -123.0977926],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 0.7581683615139299}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_e750d6b3aac6463e841a992b09e6874c.bindTooltip(
+                `<div>
+                     5.0,Vomero Coffee House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57cad777353d463a9fabbfcc06312b1b = L.marker(
+                [49.3069193, -123.0173419],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 0.7581683615139299}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_57cad777353d463a9fabbfcc06312b1b.bindTooltip(
+                `<div>
+                     5.0,The Modern Pantry
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1919a7c5fbf46dc94a2acfe758adc7e = L.marker(
+                [49.3211427, -123.0697266],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 0.7581683615139299}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_b1919a7c5fbf46dc94a2acfe758adc7e.bindTooltip(
+                `<div>
+                     5.0,Kim's Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16fd7d270e7d4c93bdad33a422fc51b7 = L.marker(
+                [49.3052312, -123.0108887],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 0.7581683615139299}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_16fd7d270e7d4c93bdad33a422fc51b7.bindTooltip(
+                `<div>
+                     5.0,Y2 Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf7663aa4b8f47f1b305a2400e137393 = L.marker(
+                [49.31241, -123.077821],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 0.7581683615139299}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_bf7663aa4b8f47f1b305a2400e137393.bindTooltip(
+                `<div>
+                     5.0,Meat At O'Neills
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a38d8d7ce28448b3ae34640f4af13a9d = L.marker(
+                [49.3267215843, -122.9502370918],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 0.7581683615139299}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_a38d8d7ce28448b3ae34640f4af13a9d.bindTooltip(
+                `<div>
+                     5.0,Deep Cove Ice Cream Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcb0570f95474362b746f32d5cafb45d = L.marker(
+                [49.3187150979, -123.0994326094],
+                {"color": "darkpink", "fill": true, "fillColor": "darkpink", "fillOpacity": 0.3, "radius": 0.7581683615139299}
+            ).addTo(feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1);
+        
+    
+            marker_dcb0570f95474362b746f32d5cafb45d.bindTooltip(
+                `<div>
+                     5.0,Saboos Bread Factory
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_ea822db95ede4d7497b4b64353b52195 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_42ac509e8e034bdeaf3c17c9062608d8,
+                },
+                overlays :  {
+                    "Popular Restaurants in N.Vancouver" : feature_group_f0e8b4439e444583a7d6c7c5dbd8a5a1,
+                },
+            };
+            L.control.layers(
+                layer_control_ea822db95ede4d7497b4b64353b52195.base_layers,
+                layer_control_ea822db95ede4d7497b4b64353b52195.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_ae0054e7b60d444fbed60a20ebd389d8);
+        
+</script>
